@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2025-12-02T15:29:25.779906",
+  "record_count": 1000,
+  "fields": {
+    "record_id": {
+      "type": "integer",
+      "description": "Unique record identifier"
+    },
+    "account_id": {
+      "type": "string",
+      "pattern": "ACC###",
+      "range": "ACC001-ACC050"
+    },
+    "project_id": {
+      "type": "string",
+      "pattern": "PRJ###",
+      "range": "PRJ001-PRJ100"
+    },
+    "predefined_health": {
+      "type": "string",
+      "enum": [
+        "Good",
+        "Warning",
+        "Critical"
+      ]
+    },
+    "free_text_details": {
+      "type": "string",
+      "description": "Variable-length description"
+    },
+    "timestamp": {
+      "type": "datetime",
+      "format": "ISO8601"
+    },
+    "data_source": {
+      "type": "string",
+      "enum": [
+        "PowerBI",
+        "Manual",
+        "API"
+      ]
+    }
+  },
+  "data_characteristics": {
+    "clear_descriptions_pct": 40,
+    "ambiguous_descriptions_pct": 20,
+    "typo_descriptions_pct": 10,
+    "incomplete_descriptions_pct": 5,
+    "complex_descriptions_pct": 15,
+    "mismatch_descriptions_pct": 10
+  }
+}

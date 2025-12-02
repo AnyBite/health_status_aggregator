@@ -1,0 +1,1001 @@
+record_id,recommended_health,confidence,mismatched,requires_rag,requires_human_review,indicators,reasoning,processing_time_ms
+1,Critical,0.95,True,False,False,[+] 'client satisfaction'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.04410743713379
+2,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.0309944152832
+3,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02741813659668
+4,Good,0.95,False,False,False,[+] 'progressing well',"Weighted keyword analysis: Good=2.5, Warning=0.0, Critical=0.0",50.010013580322266
+5,Critical,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02193450927734
+6,Good,0.95,False,False,False,[+] 'on track',"Weighted keyword analysis: Good=2.0, Warning=0.0, Critical=0.0",50.00929832458496
+7,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02288818359375
+8,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02622604370117
+9,Good,0.95,False,False,False,[+] 'team morale is high'; [+] 'exceeding expectations',"Weighted keyword analysis: Good=4.5, Warning=0.0, Critical=0.0",50.00953674316406
+10,Critical,0.95,False,False,False,[X] 'overrun',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=3.0",50.00619888305664
+11,Good,0.95,False,False,False,[+] 'excellent'; [+] 'ahead of schedule',"Weighted keyword analysis: Good=5.5, Warning=0.0, Critical=0.0",50.006675720214844
+12,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02431869506836
+13,Warning,0.9357142857142857,True,False,False,[+] 'on track'; [!] 'concern'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02765655517578
+14,Critical,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02551078796387
+15,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02670288085938
+16,Critical,0.95,True,False,False,[X] 'legal compliance issues'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02741813659668
+17,Good,0.95,False,False,False,[+] 'excellent',"Weighted keyword analysis: Good=2.5, Warning=0.0, Critical=0.0",50.013113021850586
+18,Warning,0.95,False,False,False,[+] 'excellent'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02551078796387
+19,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02908706665039
+20,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02598762512207
+21,Critical,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02670288085938
+22,Critical,0.95,False,False,False,[X] 'critical resource resignation'; [X] 'resignation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=6.5",50.00929832458496
+23,Good,0.95,False,False,False,[+] 'on track',"Weighted keyword analysis: Good=2.0, Warning=0.0, Critical=0.0",50.01049041748047
+24,Warning,0.92,False,False,False,[!] 'budget is close'; [!] 'close to the limit',"Weighted keyword analysis: Good=0.0, Warning=5.0, Critical=0.0",50.00619888305664
+25,Warning,0.92,False,False,False,[!] 'slight delay'; [!] 'slight delays',"Weighted keyword analysis: Good=0.0, Warning=5.0, Critical=0.0",50.00500679016113
+26,Warning,0.95,True,False,False,[+] 'excellent'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02384185791016
+27,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02670288085938
+28,Good,0.95,False,False,False,[+] 'client satisfaction'; [+] '9/10',"Weighted keyword analysis: Good=5.0, Warning=0.0, Critical=0.0",50.00882148742676
+29,Warning,0.92,False,False,False,[!] 'team capacity stretched'; [!] 'overtime required',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.00643730163574
+30,Good,0.95,False,False,False,[+] 'on schedule'; [+] 'under budget',"Weighted keyword analysis: Good=6.0, Warning=0.0, Critical=0.0",50.005245208740234
+31,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02503395080566
+32,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02646446228027
+33,Critical,0.95,True,False,False,[X] 'major budget overrun'; [X] 'budget overrun'; [X] 'overrun'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02789497375488
+34,Critical,0.95,False,False,False,[X] 'at risk of cancellation'; [X] 'cancellation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=7.5",50.00929832458496
+35,Warning,0.92,False,False,False,[!] 'resource constraints'; [!] 'small delays',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.008344650268555
+36,Good,0.95,False,False,False,[+] 'all milestones achieved'; [+] 'on time',"Weighted keyword analysis: Good=5.5, Warning=0.0, Critical=0.0",50.005483627319336
+37,Warning,0.92,False,False,False,[!] 'small delays',"Weighted keyword analysis: Good=0.0, Warning=2.0, Critical=0.0",50.00405311584473
+38,Warning,0.92,False,False,False,[!] 'skills gap',"Weighted keyword analysis: Good=0.0, Warning=1.5, Critical=0.0",50.005245208740234
+39,Critical,0.95,False,False,False,[X] 'security vulnerability',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=4.0",50.005245208740234
+40,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02551078796387
+41,Warning,0.9357142857142857,False,False,False,[+] 'on track'; [!] 'concern'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02932548522949
+42,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02813339233398
+43,Good,0.95,False,False,False,[+] 'no blockers'; [+] 'smooth execution',"Weighted keyword analysis: Good=5.0, Warning=0.0, Critical=0.0",50.00905990600586
+44,Critical,0.95,False,False,False,[X] 'at risk of cancellation'; [X] 'cancellation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=7.5",50.00572204589844
+45,Critical,0.95,False,False,False,[X] 'stakeholder confidence severely'; [X] 'severely impacted',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=6.5",50.005483627319336
+46,Critical,0.95,False,False,False,[+] 'on schedule'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02336502075195
+47,Critical,0.95,False,False,False,[X] 'urgent intervention'; [X] 'client escalation'; [X] 'escalation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=9.5",50.01215934753418
+48,Critical,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02813339233398
+49,Good,0.95,False,False,False,[+] 'on track',"Weighted keyword analysis: Good=2.0, Warning=0.0, Critical=0.0",50.01335144042969
+50,Critical,0.95,False,False,False,[!] 'risk identified'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02408027648926
+51,Warning,0.95,True,False,False,[!] 'slight delay'; [!] 'slight delays'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.0295639038086
+52,Critical,0.95,False,False,False,[X] 'legal compliance issues',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=4.0",50.00929832458496
+53,Critical,0.95,False,False,False,[X] 'budget exceeded'; [X] 'exceeded by 40%'; [X] 'no additional funding',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=10.5",50.006675720214844
+54,Good,0.95,False,False,False,[+] 'healthy',"Weighted keyword analysis: Good=1.5, Warning=0.0, Critical=0.0",50.00953674316406
+55,Warning,0.95,True,False,False,[!] 'slightly below target'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02241134643555
+56,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.03981590270996
+57,Warning,0.85,True,False,False,[+] 'good progress'; [!] 'morale declining'; ⚠ Ambiguity: Mixed signals detected; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.04029273986816
+58,Good,0.95,False,False,False,[+] 'on track',"Weighted keyword analysis: Good=2.0, Warning=0.0, Critical=0.0",50.012874603271484
+59,Warning,0.95,False,False,False,[+] 'excellent'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.03767013549805
+60,Warning,0.92,False,False,False,[!] 'slight delay'; [!] 'slight delays',"Weighted keyword analysis: Good=0.0, Warning=5.0, Critical=0.0",50.01335144042969
+61,Warning,0.92,False,False,False,[!] 'minor scope creep'; [!] 'monitoring closely',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.00643730163574
+62,Critical,0.95,False,False,False,[X] 'slipped significantly',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=3.5",50.005483627319336
+63,Critical,0.95,False,False,False,[X] 'critical resource resignation'; [X] 'resignation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=6.5",50.00572204589844
+64,Warning,0.92,False,False,False,[!] 'timeline at risk',"Weighted keyword analysis: Good=0.0, Warning=2.5, Critical=0.0",50.00643730163574
+65,Good,0.95,False,False,False,[+] 'positive stakeholder'; [+] 'positive',"Weighted keyword analysis: Good=3.5, Warning=0.0, Critical=0.0",50.00619888305664
+66,Warning,0.92,False,False,False,[!] 'timeline at risk',"Weighted keyword analysis: Good=0.0, Warning=2.5, Critical=0.0",50.00429153442383
+67,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02598762512207
+68,Warning,0.92,False,False,False,[!] 'slight delay'; [!] 'slight delays',"Weighted keyword analysis: Good=0.0, Warning=5.0, Critical=0.0",50.010013580322266
+69,Warning,0.92,False,False,False,[!] 'budget is close'; [!] 'close to the limit',"Weighted keyword analysis: Good=0.0, Warning=5.0, Critical=0.0",50.005245208740234
+70,Critical,0.95,False,False,False,[X] 'security vulnerability',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=4.0",50.00572204589844
+71,Critical,0.95,False,False,False,[X] 'stakeholder confidence severely'; [X] 'severely impacted',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=6.5",50.00500679016113
+72,Warning,0.95,False,False,False,[+] 'excellent'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02598762512207
+73,Warning,0.92,False,False,False,[!] 'timeline at risk',"Weighted keyword analysis: Good=0.0, Warning=2.5, Critical=0.0",50.01072883605957
+74,Warning,0.95,False,False,False,[+] 'on track'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02765655517578
+75,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02908706665039
+76,Critical,0.95,False,False,False,[X] 'at risk of cancellation'; [X] 'cancellation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=7.5",50.00929832458496
+77,Good,0.95,False,False,False,[+] 'on track',"Weighted keyword analysis: Good=2.0, Warning=0.0, Critical=0.0",50.006675720214844
+78,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02717971801758
+79,Good,0.95,False,False,False,[+] 'optimally allocated'; [+] 'efficiency improved',"Weighted keyword analysis: Good=4.0, Warning=0.0, Critical=0.0",50.01049041748047
+80,Warning,0.95,False,False,False,[+] 'healthy'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02312660217285
+81,Warning,0.92,False,False,False,[!] 'budget is close'; [!] 'close to the limit',"Weighted keyword analysis: Good=0.0, Warning=5.0, Critical=0.0",50.00905990600586
+82,Good,0.95,True,False,False,[!] 'budget variance'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02741813659668
+83,Critical,0.95,False,False,False,[X] 'security vulnerability',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=4.0",50.00882148742676
+84,Warning,0.95,True,False,False,[+] 'on track'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02598762512207
+85,Critical,0.95,True,False,False,[+] 'on schedule'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02789497375488
+86,Critical,0.95,False,False,False,[X] 'budget overrun'; [X] 'overrun',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=6.5",50.01358985900879
+87,Good,0.95,True,False,False,[+] 'excellent'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02884864807129
+88,Good,0.95,True,False,False,[+] 'team morale is high'; [+] 'exceeding expectations'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02837181091309
+89,Good,0.95,False,False,False,[+] 'optimally allocated'; [+] 'efficiency improved',"Weighted keyword analysis: Good=4.0, Warning=0.0, Critical=0.0",50.010013580322266
+90,Critical,0.95,True,False,False,[X] 'failed acceptance testing'; [X] 'failed'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02479553222656
+91,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.0295639038086
+92,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02527236938477
+93,Critical,0.95,False,False,False,[+] 'healthy'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02789497375488
+94,Critical,0.95,False,False,False,[+] 'client satisfaction'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.030517578125
+95,Critical,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02527236938477
+96,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02694129943848
+97,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02717971801758
+98,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02670288085938
+99,Critical,0.95,False,False,False,[X] 'budget overrun'; [X] 'overrun',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=6.5",50.01263618469238
+100,Critical,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02288818359375
+101,Good,0.95,True,False,False,[+] 'all milestones achieved'; [+] 'on time'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02741813659668
+102,Critical,0.95,False,False,False,[+] 'on schedule'; [!] 'concern'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.03242492675781
+103,Critical,0.95,False,False,False,[X] 'budget exceeded'; [X] 'exceeded by 40%'; [X] 'no additional funding',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=10.5",50.010013580322266
+104,Critical,0.95,True,False,False,[+] 'healthy'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02646446228027
+105,Critical,0.95,True,False,False,[X] 'budget overrun'; [X] 'overrun'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.03242492675781
+106,Critical,0.95,False,False,False,[X] 'stakeholder confidence severely'; [X] 'severely impacted',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=6.5",50.00905990600586
+107,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02360343933105
+108,Warning,0.85,False,False,False,[+] 'good progress'; [!] 'morale declining'; ⚠ Ambiguity: Mixed signals detected; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02908706665039
+109,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02527236938477
+110,Good,0.95,True,False,False,[+] 'positive stakeholder'; [+] 'positive'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02741813659668
+111,Good,0.8833333333333333,False,False,False,[+] 'on schedule'; [!] 'concern',"Weighted keyword analysis: Good=3.0, Warning=1.5, Critical=0.0",50.01358985900879
+112,Warning,0.95,True,False,False,[+] 'on track'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02527236938477
+113,Warning,0.92,False,False,False,[!] 'budget variance'; [!] 'corrective action',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.01049041748047
+114,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02312660217285
+115,Warning,0.95,True,False,False,[+] 'healthy'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02741813659668
+116,Critical,0.95,False,False,False,[+] 'on track'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.03242492675781
+117,Critical,0.95,False,False,False,[X] 'budget exceeded'; [X] 'exceeded by 40%'; [X] 'no additional funding',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=10.5",50.010013580322266
+118,Good,0.95,True,False,False,[+] 'excellent'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02861022949219
+119,Critical,0.95,True,False,False,[X] 'budget exceeded'; [X] 'exceeded by 40%'; [X] 'no additional funding'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02884864807129
+120,Critical,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02598762512207
+121,Critical,0.95,False,False,False,[X] 'legal compliance issues',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=4.0",50.00929832458496
+122,Critical,0.95,False,False,False,[X] 'budget exceeded'; [X] 'exceeded by 40%'; [X] 'no additional funding',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=10.5",50.006914138793945
+123,Good,0.95,True,False,False,[+] 'positive'; [!] 'concern'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02527236938477
+124,Critical,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02908706665039
+125,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.0309944152832
+126,Critical,0.95,False,False,False,[X] 'security vulnerability',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=4.0",50.00882148742676
+127,Critical,0.95,False,False,False,[X] 'critical resource resignation'; [X] 'resignation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=6.5",50.00596046447754
+128,Warning,0.95,False,False,False,[+] 'excellent'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02503395080566
+129,Critical,0.95,True,False,False,[+] 'healthy'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.0307559967041
+130,Warning,0.92,False,False,False,[!] 'team capacity stretched'; [!] 'overtime required',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.01096725463867
+131,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02765655517578
+132,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02598762512207
+133,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02670288085938
+134,Critical,0.95,False,False,False,[X] 'critical resource resignation'; [X] 'resignation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=6.5",50.00953674316406
+135,Good,0.95,False,False,False,[+] 'progressing well',"Weighted keyword analysis: Good=2.5, Warning=0.0, Critical=0.0",50.00572204589844
+136,Warning,0.92,False,False,False,[!] 'budget variance'; [!] 'corrective action',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.006675720214844
+137,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02741813659668
+138,Warning,0.92,False,False,False,[!] 'slightly below target',"Weighted keyword analysis: Good=0.0, Warning=2.0, Critical=0.0",50.009775161743164
+139,Critical,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02360343933105
+140,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02861022949219
+141,Warning,0.95,True,False,False,[!] 'slight delay'; [!] 'slight delays'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02813339233398
+142,Good,0.95,False,False,False,[+] 'all milestones achieved'; [+] 'on time',"Weighted keyword analysis: Good=5.5, Warning=0.0, Critical=0.0",50.00905990600586
+143,Critical,0.95,False,False,False,[X] 'security vulnerability',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=4.0",50.005483627319336
+144,Good,0.95,False,False,False,[+] 'all milestones achieved'; [+] 'on time',"Weighted keyword analysis: Good=5.5, Warning=0.0, Critical=0.0",50.00452995300293
+145,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02360343933105
+146,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02694129943848
+147,Critical,0.95,False,False,False,[+] 'client satisfaction'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02932548522949
+148,Good,0.95,False,False,False,[+] 'healthy',"Weighted keyword analysis: Good=1.5, Warning=0.0, Critical=0.0",50.013113021850586
+149,Critical,0.95,False,False,False,[X] 'urgent intervention'; [X] 'client escalation'; [X] 'escalation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=9.5",50.00643730163574
+150,Good,0.95,False,False,False,[!] 'budget variance'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02717971801758
+151,Good,0.95,False,False,False,[+] 'optimally allocated'; [+] 'efficiency improved',"Weighted keyword analysis: Good=4.0, Warning=0.0, Critical=0.0",50.01049041748047
+152,Critical,0.95,False,False,False,[X] 'legal compliance issues',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=4.0",50.00596046447754
+153,Good,0.95,False,False,False,[!] 'budget variance'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02884864807129
+154,Critical,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02551078796387
+155,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02813339233398
+156,Critical,0.95,False,False,False,[X] 'budget overrun'; [X] 'overrun',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=6.5",50.012874603271484
+157,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02169609069824
+158,Warning,0.95,False,False,False,[+] 'on track'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02598762512207
+159,Good,0.95,False,False,False,[+] 'progressing well',"Weighted keyword analysis: Good=2.5, Warning=0.0, Critical=0.0",50.00882148742676
+160,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02312660217285
+161,Critical,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02670288085938
+162,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02717971801758
+163,Critical,0.95,False,False,False,[!] 'risk identified'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02574920654297
+164,Warning,0.92,False,False,False,[!] 'resource constraints'; [!] 'small delays',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.00905990600586
+165,Warning,0.92,False,False,False,[!] 'budget variance'; [!] 'corrective action',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.00596046447754
+166,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02455711364746
+167,Critical,0.95,False,False,False,[X] 'budget exceeded'; [X] 'exceeded by 40%'; [X] 'no additional funding',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=10.5",50.009775161743164
+168,Critical,0.95,False,False,False,[X] 'at risk of cancellation'; [X] 'cancellation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=7.5",50.005245208740234
+169,Critical,0.95,False,False,False,[X] 'at risk of cancellation'; [X] 'cancellation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=7.5",50.00357627868652
+170,Warning,0.95,True,False,False,[!] 'delayed by'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02527236938477
+171,Critical,0.95,False,False,False,[X] 'budget exceeded'; [X] 'exceeded by 40%'; [X] 'no additional funding',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=10.5",50.010013580322266
+172,Critical,0.95,False,False,False,[X] 'budget exceeded'; [X] 'exceeded by 40%'; [X] 'no additional funding',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=10.5",50.00476837158203
+173,Good,0.95,False,False,False,[+] 'progressing well',"Weighted keyword analysis: Good=2.5, Warning=0.0, Critical=0.0",50.00572204589844
+174,Critical,0.95,False,False,False,[X] 'failed acceptance testing'; [X] 'failed',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=7.0",50.00596046447754
+175,Warning,0.85,True,False,False,[+] 'good progress'; [!] 'morale declining'; ⚠ Ambiguity: Mixed signals detected; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02479553222656
+176,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02598762512207
+177,Critical,0.95,True,False,False,[X] 'stakeholder confidence severely'; [X] 'severely impacted'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02741813659668
+178,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02813339233398
+179,Critical,0.95,True,False,False,[X] 'stakeholder confidence severely'; [X] 'severely impacted'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02861022949219
+180,Good,0.95,False,False,False,[+] 'on schedule'; [+] 'under budget',"Weighted keyword analysis: Good=6.0, Warning=0.0, Critical=0.0",50.009775161743164
+181,Critical,0.95,False,False,False,[X] 'slipped significantly',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=3.5",50.005483627319336
+182,Warning,0.92,False,False,False,[!] 'budget is close'; [!] 'close to the limit',"Weighted keyword analysis: Good=0.0, Warning=5.0, Critical=0.0",50.005245208740234
+183,Critical,0.95,False,False,False,[X] 'failed acceptance testing'; [X] 'failed',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=7.0",50.005483627319336
+184,Critical,0.95,True,False,False,[+] 'on track'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02598762512207
+185,Critical,0.95,False,False,False,[X] 'at risk of cancellation'; [X] 'cancellation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=7.5",50.008583068847656
+186,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02455711364746
+187,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.0307559967041
+188,Critical,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02741813659668
+189,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02670288085938
+190,Good,0.95,True,False,False,[+] 'healthy'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.03170967102051
+191,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02717971801758
+192,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02813339233398
+193,Good,0.95,False,False,False,[+] 'on track',"Weighted keyword analysis: Good=2.0, Warning=0.0, Critical=0.0",50.009775161743164
+194,Good,0.95,False,False,False,[+] 'positive'; [!] 'concern'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02527236938477
+195,Critical,0.95,False,False,False,[+] 'healthy'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.03218650817871
+196,Good,0.95,False,False,False,[+] 'excellent',"Weighted keyword analysis: Good=2.5, Warning=0.0, Critical=0.0",50.01096725463867
+197,Warning,0.95,True,False,False,[+] 'excellent'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02408027648926
+198,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.03600120544434
+199,Good,0.95,False,False,False,[+] 'on schedule',"Weighted keyword analysis: Good=3.0, Warning=0.0, Critical=0.0",50.00953674316406
+200,Warning,0.9357142857142857,True,False,False,[+] 'on track'; [!] 'concern'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02789497375488
+201,Critical,0.95,True,False,False,[X] 'at risk of cancellation'; [X] 'cancellation'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02813339233398
+202,Good,0.95,False,False,False,[+] 'no blockers'; [+] 'smooth execution',"Weighted keyword analysis: Good=5.0, Warning=0.0, Critical=0.0",50.00905990600586
+203,Critical,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02193450927734
+204,Good,0.95,False,False,False,[+] 'excellent',"Weighted keyword analysis: Good=2.5, Warning=0.0, Critical=0.0",50.012874603271484
+205,Good,0.95,False,False,False,[+] 'optimally allocated'; [+] 'efficiency improved',"Weighted keyword analysis: Good=4.0, Warning=0.0, Critical=0.0",50.006675720214844
+206,Warning,0.92,False,False,False,[!] 'communication gaps',"Weighted keyword analysis: Good=0.0, Warning=2.0, Critical=0.0",50.00619888305664
+207,Critical,0.95,False,False,False,[X] 'stakeholder confidence severely'; [X] 'severely impacted',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=6.5",50.005483627319336
+208,Warning,0.95,False,False,False,[+] 'healthy'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02264976501465
+209,Critical,0.95,False,False,False,[X] 'slipped significantly',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=3.5",50.00905990600586
+210,Critical,0.95,True,False,False,[+] 'on schedule'; [!] 'concern'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02884864807129
+211,Critical,0.95,True,False,False,[+] 'client satisfaction'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.030517578125
+212,Critical,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02646446228027
+213,Critical,0.95,False,False,False,[X] 'stakeholder confidence severely',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=3.5",50.00882148742676
+214,Critical,0.95,False,False,False,[X] 'resignation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=2.5",50.00572204589844
+215,Critical,0.95,False,False,False,[X] 'legal compliance issues',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=4.0",50.00500679016113
+216,Good,0.95,False,False,False,[+] 'no blockers'; [+] 'smooth execution',"Weighted keyword analysis: Good=5.0, Warning=0.0, Critical=0.0",50.005245208740234
+217,Warning,0.95,False,False,False,[+] 'on track'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.0300407409668
+218,Warning,0.95,False,False,False,[+] 'healthy'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02908706665039
+219,Warning,0.92,False,False,False,[!] 'team capacity stretched'; [!] 'overtime required',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.01120567321777
+220,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02408027648926
+221,Good,0.95,False,False,False,[+] 'positive'; [!] 'concern'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02813339233398
+222,Good,0.95,False,False,False,[+] 'progressing well',"Weighted keyword analysis: Good=2.5, Warning=0.0, Critical=0.0",50.008583068847656
+223,Good,0.95,False,False,False,[+] 'all milestones achieved'; [+] 'on time',"Weighted keyword analysis: Good=5.5, Warning=0.0, Critical=0.0",50.005483627319336
+224,Critical,0.95,True,False,False,[+] 'on schedule'; [!] 'concern'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.0300407409668
+225,Good,0.95,True,False,False,[+] 'excellent'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.0302791595459
+226,Critical,0.95,False,False,False,[X] 'urgent intervention'; [X] 'client escalation'; [X] 'escalation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=9.5",50.01072883605957
+227,Good,0.95,True,False,False,[+] 'excellent'; [+] 'ahead of schedule'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02694129943848
+228,Critical,0.95,False,False,False,[X] 'failed acceptance testing'; [X] 'failed',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=7.0",50.01025199890137
+229,Good,0.95,False,False,False,[+] 'positive stakeholder'; [+] 'positive',"Weighted keyword analysis: Good=3.5, Warning=0.0, Critical=0.0",50.00596046447754
+230,Warning,0.95,True,False,False,[!] 'minor scope creep'; [!] 'monitoring closely'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02312660217285
+231,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02717971801758
+232,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02789497375488
+233,Warning,0.92,False,False,False,[!] 'timeline at risk',"Weighted keyword analysis: Good=0.0, Warning=2.5, Critical=0.0",50.010013580322266
+234,Warning,0.95,True,False,False,[!] 'budget is close'; [!] 'close to the limit'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02288818359375
+235,Critical,0.95,True,False,False,[X] 'slipped significantly'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02837181091309
+236,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02765655517578
+237,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02741813659668
+238,Good,0.95,False,False,False,[+] 'healthy',"Weighted keyword analysis: Good=1.5, Warning=0.0, Critical=0.0",50.010013580322266
+239,Good,0.95,False,False,False,[+] 'excellent',"Weighted keyword analysis: Good=2.5, Warning=0.0, Critical=0.0",50.00715255737305
+240,Good,0.95,False,False,False,[!] 'budget variance'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02813339233398
+241,Warning,0.92,False,False,False,[!] 'resource constraints'; [!] 'small delays',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.010013580322266
+242,Good,0.95,True,False,False,[+] 'client satisfaction'; [+] '9/10'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02431869506836
+243,Critical,0.95,False,False,False,[X] 'legal compliance issues',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=4.0",50.00882148742676
+244,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02694129943848
+245,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02598762512207
+246,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02646446228027
+247,Critical,0.95,False,False,False,[+] 'client satisfaction'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.030517578125
+248,Warning,0.95,False,False,False,[+] 'excellent'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02789497375488
+249,Good,0.95,False,False,False,[+] 'client satisfaction',"Weighted keyword analysis: Good=2.5, Warning=0.0, Critical=0.0",50.01239776611328
+250,Good,0.95,True,False,False,[+] 'healthy'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02932548522949
+251,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02527236938477
+252,Warning,0.9357142857142857,False,False,False,[+] 'on track'; [!] 'concern'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02837181091309
+253,Warning,0.95,False,False,False,[+] 'excellent'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.0300407409668
+254,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02717971801758
+255,Critical,0.95,False,False,False,[X] 'urgent intervention'; [X] 'client escalation'; [X] 'escalation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=9.5",50.010013580322266
+256,Critical,0.95,False,False,False,[X] 'urgent intervention'; [X] 'client escalation'; [X] 'escalation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=9.5",50.00500679016113
+257,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02336502075195
+258,Warning,0.92,False,False,False,[!] 'slightly below target',"Weighted keyword analysis: Good=0.0, Warning=2.0, Critical=0.0",50.00929832458496
+259,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02384185791016
+260,Critical,0.95,False,False,False,[X] 'stakeholder confidence severely'; [X] 'severely impacted',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=6.5",50.009775161743164
+261,Warning,0.9357142857142857,False,False,False,[+] 'on track'; [!] 'concern'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02574920654297
+262,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02717971801758
+263,Critical,0.95,False,False,False,[+] 'on track'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.0307559967041
+264,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02622604370117
+265,Warning,0.95,True,False,False,[!] 'resource constraints'; [!] 'small delays'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02741813659668
+266,Warning,0.92,False,False,False,[!] 'budget is close'; [!] 'close to the limit',"Weighted keyword analysis: Good=0.0, Warning=5.0, Critical=0.0",50.00953674316406
+267,Critical,0.95,True,False,False,[X] 'budget overrun'; [X] 'overrun'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02837181091309
+268,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.030517578125
+269,Critical,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.0307559967041
+270,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02837181091309
+271,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02789497375488
+272,Good,0.95,False,False,False,[+] 'on track',"Weighted keyword analysis: Good=2.0, Warning=0.0, Critical=0.0",50.00882148742676
+273,Critical,0.95,False,False,False,[X] 'failed acceptance testing'; [X] 'failed',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=7.0",50.00643730163574
+274,Good,0.95,True,False,False,[+] 'all milestones achieved'; [+] 'on time'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02336502075195
+275,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02717971801758
+276,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.030517578125
+277,Warning,0.95,True,False,False,[!] 'slight delay'; [!] 'slight delays'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02765655517578
+278,Good,0.95,True,False,False,[+] 'no blockers'; [+] 'smooth execution'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02717971801758
+279,Good,0.95,False,False,False,[+] 'on track',"Weighted keyword analysis: Good=2.0, Warning=0.0, Critical=0.0",50.012874603271484
+280,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02455711364746
+281,Critical,0.95,False,False,False,[X] 'budget overrun'; [X] 'overrun',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=6.5",50.01263618469238
+282,Critical,0.95,True,False,False,[X] 'slipped significantly'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02384185791016
+283,Critical,0.95,True,False,False,[+] 'on schedule'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02670288085938
+284,Good,0.95,True,False,False,[+] 'positive'; [!] 'concern'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02789497375488
+285,Critical,0.95,False,False,False,[X] 'at risk of cancellation'; [X] 'cancellation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=7.5",50.009775161743164
+286,Critical,0.95,False,False,False,[X] 'failed acceptance testing'; [X] 'failed',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=7.0",50.00619888305664
+287,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02384185791016
+288,Warning,0.92,False,False,False,[!] 'minor scope creep'; [!] 'monitoring closely',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.00953674316406
+289,Critical,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02312660217285
+290,Critical,0.95,True,False,False,[X] 'budget overrun'; [X] 'overrun'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.03170967102051
+291,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02646446228027
+292,Warning,0.95,True,False,False,[!] 'timeline at risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02908706665039
+293,Warning,0.95,False,False,False,[+] 'excellent'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02861022949219
+294,Good,0.95,True,False,False,[+] 'healthy'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.03409385681152
+295,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02694129943848
+296,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02694129943848
+297,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02694129943848
+298,Good,0.95,True,False,False,[X] 'escalation'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02574920654297
+299,Critical,0.95,False,False,False,[X] 'failed acceptance testing'; [X] 'failed',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=7.0",50.00905990600586
+300,Warning,0.95,True,False,False,[+] 'excellent'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02574920654297
+301,Critical,0.95,True,False,False,[X] 'critical resource resignation'; [X] 'resignation'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02789497375488
+302,Good,0.95,False,False,False,[+] 'on track',"Weighted keyword analysis: Good=2.0, Warning=0.0, Critical=0.0",50.00905990600586
+303,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02455711364746
+304,Warning,0.92,False,False,False,[!] 'delayed by',"Weighted keyword analysis: Good=0.0, Warning=2.0, Critical=0.0",50.00929832458496
+305,Good,0.95,True,False,False,[+] 'positive'; [!] 'concern'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02527236938477
+306,Good,0.95,False,False,False,[+] 'excellent',"Weighted keyword analysis: Good=2.5, Warning=0.0, Critical=0.0",50.01049041748047
+307,Critical,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02312660217285
+308,Critical,0.95,False,False,False,[X] 'budget overrun'; [X] 'overrun',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=6.5",50.01239776611328
+309,Good,0.95,False,False,False,[+] 'excellent',"Weighted keyword analysis: Good=2.5, Warning=0.0, Critical=0.0",50.009775161743164
+310,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02312660217285
+311,Good,0.95,False,False,False,[+] 'on schedule'; [+] 'under budget',"Weighted keyword analysis: Good=6.0, Warning=0.0, Critical=0.0",50.00953674316406
+312,Critical,0.95,False,False,False,[+] 'on schedule'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02312660217285
+313,Good,0.95,False,False,False,[+] 'all milestones achieved'; [+] 'on time',"Weighted keyword analysis: Good=5.5, Warning=0.0, Critical=0.0",50.00929832458496
+314,Critical,0.95,False,False,False,[X] 'urgent intervention'; [X] 'client escalation'; [X] 'escalation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=9.5",50.006914138793945
+315,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02288818359375
+316,Good,0.95,False,False,False,[+] 'team morale is high'; [+] 'exceeding expectations',"Weighted keyword analysis: Good=4.5, Warning=0.0, Critical=0.0",50.00953674316406
+317,Warning,0.92,False,False,False,[!] 'slight delay'; [!] 'slight delays',"Weighted keyword analysis: Good=0.0, Warning=5.0, Critical=0.0",50.00619888305664
+318,Critical,0.95,False,False,False,[X] 'budget exceeded'; [X] 'exceeded by 40%'; [X] 'no additional funding',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=10.5",50.00596046447754
+319,Good,0.95,True,False,False,[+] 'optimally allocated'; [+] 'efficiency improved'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02455711364746
+320,Critical,0.95,True,False,False,[+] 'client satisfaction'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.0314712524414
+321,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02598762512207
+322,Critical,0.95,True,False,False,[X] 'budget overrun'; [X] 'overrun'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.03218650817871
+323,Critical,0.95,False,False,False,[X] 'budget exceeded'; [X] 'exceeded by 40%'; [X] 'no additional funding',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=10.5",50.00953674316406
+324,Critical,0.95,False,False,False,[X] 'security vulnerability',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=4.0",50.005245208740234
+325,Critical,0.95,False,False,False,[X] 'at risk of cancellation'; [X] 'cancellation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=7.5",50.005245208740234
+326,Critical,0.95,False,False,False,[X] 'stakeholder confidence severely'; [X] 'severely impacted',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=6.5",50.00500679016113
+327,Warning,0.92,False,False,False,[!] 'budget is close'; [!] 'close to the limit',"Weighted keyword analysis: Good=0.0, Warning=5.0, Critical=0.0",50.00500679016113
+328,Critical,0.95,False,False,False,[X] 'major budget overrun'; [X] 'budget overrun'; [X] 'overrun',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=10.5",50.00405311584473
+329,Warning,0.92,False,False,False,[!] 'budget variance'; [!] 'corrective action',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.005483627319336
+330,Critical,0.95,False,False,False,[X] 'severely impacted',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=3.0",50.00429153442383
+331,Critical,0.95,False,False,False,[X] 'stakeholder confidence severely'; [X] 'severely impacted',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=6.5",50.003814697265625
+332,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02431869506836
+333,Critical,0.95,True,False,False,[X] 'critical resource resignation'; [X] 'resignation'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02717971801758
+334,Good,0.95,True,False,False,[+] 'healthy'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.0314712524414
+335,Good,0.95,True,False,False,[+] 'excellent'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.03170967102051
+336,Critical,0.95,False,False,False,[X] 'slipped significantly',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=3.5",50.008344650268555
+337,Critical,0.95,False,False,False,[+] 'on track'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02789497375488
+338,Good,0.95,False,False,False,[+] 'healthy',"Weighted keyword analysis: Good=1.5, Warning=0.0, Critical=0.0",50.00905990600586
+339,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02312660217285
+340,Good,0.95,False,False,False,[+] 'optimally allocated',"Weighted keyword analysis: Good=2.0, Warning=0.0, Critical=0.0",50.01025199890137
+341,Good,0.95,False,False,False,[+] 'healthy',"Weighted keyword analysis: Good=1.5, Warning=0.0, Critical=0.0",50.006914138793945
+342,Warning,0.92,False,False,False,[!] 'timeline at risk',"Weighted keyword analysis: Good=0.0, Warning=2.5, Critical=0.0",50.006914138793945
+343,Critical,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02384185791016
+344,Good,0.95,False,False,False,[+] 'healthy',"Weighted keyword analysis: Good=1.5, Warning=0.0, Critical=0.0",50.00905990600586
+345,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02551078796387
+346,Good,0.95,False,False,False,[+] 'no blockers',"Weighted keyword analysis: Good=2.5, Warning=0.0, Critical=0.0",50.01025199890137
+347,Warning,0.92,False,False,False,[!] 'slightly below target',"Weighted keyword analysis: Good=0.0, Warning=2.0, Critical=0.0",50.00643730163574
+348,Good,0.95,True,False,False,[+] 'no blockers'; [+] 'smooth execution'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02455711364746
+349,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02694129943848
+350,Critical,0.95,False,False,False,[X] 'critical resource resignation'; [X] 'resignation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=6.5",50.00905990600586
+351,Warning,0.85,False,False,False,[+] 'good progress'; [!] 'morale declining'; ⚠ Ambiguity: Mixed signals detected; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02551078796387
+352,Good,0.95,False,False,False,[+] 'on track',"Weighted keyword analysis: Good=2.0, Warning=0.0, Critical=0.0",50.00929832458496
+353,Critical,0.95,True,False,False,[X] 'slipped significantly'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02312660217285
+354,Critical,0.95,False,False,False,[X] 'slipped significantly',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=3.5",50.008583068847656
+355,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02527236938477
+356,Warning,0.85,True,False,False,[+] 'good progress'; [!] 'morale declining'; ⚠ Ambiguity: Mixed signals detected; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02813339233398
+357,Critical,0.95,True,False,False,[+] 'client satisfaction'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.0307559967041
+358,Warning,0.92,False,False,False,[!] 'slight delay'; [!] 'slight delays',"Weighted keyword analysis: Good=0.0, Warning=5.0, Critical=0.0",50.00929832458496
+359,Good,0.95,True,False,False,[+] 'team morale is high'; [+] 'exceeding expectations'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02455711364746
+360,Good,0.95,False,False,False,[+] 'on track',"Weighted keyword analysis: Good=2.0, Warning=0.0, Critical=0.0",50.009775161743164
+361,Critical,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02408027648926
+362,Critical,0.95,False,False,False,[+] 'on track'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.03290176391602
+363,Good,0.95,False,False,False,[+] 'positive stakeholder'; [+] 'positive',"Weighted keyword analysis: Good=3.5, Warning=0.0, Critical=0.0",50.009775161743164
+364,Critical,0.95,True,False,False,[X] 'critical resource resignation'; [X] 'resignation'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02479553222656
+365,Good,0.95,False,False,False,[+] 'on track',"Weighted keyword analysis: Good=2.0, Warning=0.0, Critical=0.0",50.00929832458496
+366,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02408027648926
+367,Critical,0.95,True,False,False,[X] 'budget overrun'; [X] 'overrun'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.0314712524414
+368,Critical,0.95,True,False,False,[X] 'budget exceeded'; [X] 'exceeded by 40%'; [X] 'no additional funding'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02932548522949
+369,Warning,0.95,False,False,False,[+] 'excellent'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02932548522949
+370,Good,0.95,False,False,False,[+] 'no blockers'; [+] 'smooth execution',"Weighted keyword analysis: Good=5.0, Warning=0.0, Critical=0.0",50.00929832458496
+371,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02336502075195
+372,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02527236938477
+373,Warning,0.92,False,False,False,[!] 'timeline at risk',"Weighted keyword analysis: Good=0.0, Warning=2.5, Critical=0.0",50.009775161743164
+374,Critical,0.95,False,False,False,[X] 'failed',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=3.0",50.00619888305664
+375,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02694129943848
+376,Good,0.95,False,False,False,[!] 'budget variance'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.03242492675781
+377,Critical,0.95,False,False,False,[X] 'slipped significantly',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=3.5",50.00882148742676
+378,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02336502075195
+379,Critical,0.95,False,False,False,[X] 'urgent intervention'; [X] 'client escalation'; [X] 'escalation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=9.5",50.01025199890137
+380,Critical,0.95,False,False,False,[X] 'budget exceeded'; [X] 'exceeded by 40%'; [X] 'no additional funding',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=10.5",50.00619888305664
+381,Good,0.95,False,False,False,[+] 'progressing well',"Weighted keyword analysis: Good=2.5, Warning=0.0, Critical=0.0",50.00572204589844
+382,Good,0.95,False,False,False,[+] 'client satisfaction',"Weighted keyword analysis: Good=2.5, Warning=0.0, Critical=0.0",50.008583068847656
+383,Critical,0.95,False,False,False,[X] 'budget exceeded'; [X] 'exceeded by 40%'; [X] 'no additional funding',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=10.5",50.00500679016113
+384,Critical,0.95,False,False,False,[X] 'critical resource resignation'; [X] 'resignation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=6.5",50.005245208740234
+385,Warning,0.9357142857142857,False,False,False,[+] 'on track'; [!] 'concern'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02408027648926
+386,Warning,0.92,False,False,False,[!] 'slightly below target',"Weighted keyword analysis: Good=0.0, Warning=2.0, Critical=0.0",50.00905990600586
+387,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02503395080566
+388,Critical,0.95,False,False,False,[X] 'failed acceptance testing'; [X] 'failed',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=7.0",50.010013580322266
+389,Critical,0.95,True,False,False,[+] 'on track'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.030517578125
+390,Good,0.95,False,False,False,[+] 'optimally allocated'; [+] 'efficiency improved',"Weighted keyword analysis: Good=4.0, Warning=0.0, Critical=0.0",50.010013580322266
+391,Critical,0.95,False,False,False,[X] 'major budget overrun'; [X] 'budget overrun'; [X] 'overrun',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=10.5",50.00500679016113
+392,Warning,0.92,False,False,False,[!] 'minor scope creep'; [!] 'monitoring closely',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.00643730163574
+393,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02312660217285
+394,Warning,0.95,True,False,False,[!] 'skills gap'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02884864807129
+395,Good,0.95,False,False,False,[+] 'progressing well',"Weighted keyword analysis: Good=2.5, Warning=0.0, Critical=0.0",50.008583068847656
+396,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02789497375488
+397,Good,0.95,True,False,False,[+] 'client satisfaction'; [+] '9/10'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02646446228027
+398,Critical,0.95,False,False,False,[+] 'on track'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.03170967102051
+399,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02765655517578
+400,Critical,0.95,False,False,False,[X] 'slipped significantly',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=3.5",50.00882148742676
+401,Critical,0.95,True,False,False,[X] 'at risk of cancellation'; [X] 'cancellation'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02336502075195
+402,Warning,0.92,False,False,False,[!] 'timeline at risk',"Weighted keyword analysis: Good=0.0, Warning=2.5, Critical=0.0",50.01025199890137
+403,Good,0.95,False,False,False,[+] 'excellent',"Weighted keyword analysis: Good=2.5, Warning=0.0, Critical=0.0",50.009775161743164
+404,Warning,0.9357142857142857,False,False,False,[+] 'on track'; [!] 'concern'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02408027648926
+405,Critical,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02622604370117
+406,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02813339233398
+407,Good,0.95,False,False,False,[!] 'budget variance'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.0302791595459
+408,Critical,0.95,False,False,False,[X] 'failed acceptance testing'; [X] 'failed',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=7.0",50.00929832458496
+409,Warning,0.95,True,False,False,[+] 'on track'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02527236938477
+410,Warning,0.95,True,False,False,[!] 'team capacity stretched'; [!] 'overtime required'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02884864807129
+411,Warning,0.92,False,False,False,[!] 'budget variance'; [!] 'corrective action',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.009775161743164
+412,Warning,0.92,False,False,False,[!] 'skills gap',"Weighted keyword analysis: Good=0.0, Warning=1.5, Critical=0.0",50.00596046447754
+413,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02217292785645
+414,Warning,0.95,True,False,False,[+] 'on track'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.0300407409668
+415,Critical,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02717971801758
+416,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02598762512207
+417,Critical,0.95,False,False,False,[X] 'stakeholder confidence severely'; [X] 'severely impacted',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=6.5",50.00953674316406
+418,Critical,0.95,True,False,False,[+] 'positive'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02527236938477
+419,Critical,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02670288085938
+420,Warning,0.95,False,False,False,[+] 'on track'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02717971801758
+421,Critical,0.95,False,False,False,[+] 'on schedule'; [!] 'concern'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.03194808959961
+422,Warning,0.92,False,False,False,[!] 'team capacity stretched'; [!] 'overtime required',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.00929832458496
+423,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02408027648926
+424,Good,0.95,False,False,False,[+] 'on track',"Weighted keyword analysis: Good=2.0, Warning=0.0, Critical=0.0",50.00953674316406
+425,Warning,0.95,True,False,False,[!] 'slight delay'; [!] 'slight delays'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02455711364746
+426,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.030517578125
+427,Warning,0.95,False,False,False,[+] 'on track'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.03314018249512
+428,Warning,0.92,False,False,False,[!] 'team capacity stretched'; [!] 'overtime required',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.01025199890137
+429,Good,0.95,False,False,False,[+] 'on schedule'; [+] 'under budget',"Weighted keyword analysis: Good=6.0, Warning=0.0, Critical=0.0",50.00596046447754
+430,Good,0.95,False,False,False,[+] 'client satisfaction'; [+] '9/10',"Weighted keyword analysis: Good=5.0, Warning=0.0, Critical=0.0",50.005483627319336
+431,Critical,0.95,True,False,False,[+] 'healthy'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02384185791016
+432,Critical,0.95,False,False,False,[X] 'at risk of cancellation'; [X] 'cancellation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=7.5",50.008583068847656
+433,Warning,0.95,True,False,False,[!] 'budget variance'; [!] 'corrective action'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02431869506836
+434,Warning,0.92,False,False,False,[!] 'team capacity stretched'; [!] 'overtime required',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.01025199890137
+435,Good,0.95,False,False,False,[+] 'excellent'; [+] 'ahead of schedule',"Weighted keyword analysis: Good=5.5, Warning=0.0, Critical=0.0",50.00786781311035
+436,Good,0.95,True,False,False,[+] 'client satisfaction'; [+] '9/10'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02455711364746
+437,Warning,0.92,False,False,False,[!] 'resource constraints'; [!] 'small delays',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.00929832458496
+438,Good,0.95,False,False,False,[+] 'no blockers'; [+] 'smooth execution',"Weighted keyword analysis: Good=5.0, Warning=0.0, Critical=0.0",50.00619888305664
+439,Critical,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02741813659668
+440,Good,0.95,False,False,False,[+] 'excellent'; [+] 'ahead of schedule',"Weighted keyword analysis: Good=5.5, Warning=0.0, Critical=0.0",50.01025199890137
+441,Critical,0.95,False,False,False,[X] 'failed acceptance testing'; [X] 'failed',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=7.0",50.00619888305664
+442,Warning,0.95,False,False,False,[+] 'excellent'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02479553222656
+443,Critical,0.95,False,False,False,[X] 'security vulnerability',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=4.0",50.00929832458496
+444,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02408027648926
+445,Warning,0.92,False,False,False,[!] 'minor scope creep'; [!] 'monitoring closely',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.060319900512695
+446,Critical,0.95,False,False,False,[X] 'major budget overrun'; [X] 'budget overrun'; [X] 'overrun',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=10.5",50.005483627319336
+447,Good,0.95,False,False,False,[+] 'positive stakeholder'; [+] 'positive',"Weighted keyword analysis: Good=3.5, Warning=0.0, Critical=0.0",50.00619888305664
+448,Critical,0.95,False,False,False,[+] 'on schedule'; [!] 'concern'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02741813659668
+449,Good,0.95,False,False,False,[+] 'healthy',"Weighted keyword analysis: Good=1.5, Warning=0.0, Critical=0.0",50.01263618469238
+450,Warning,0.95,True,False,False,[!] 'slightly below target'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02312660217285
+451,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02622604370117
+452,Critical,0.95,False,False,False,[X] 'budget exceeded'; [X] 'exceeded by 40%'; [X] 'no additional funding',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=10.5",50.00953674316406
+453,Critical,0.95,True,False,False,[X] 'urgent intervention'; [X] 'client escalation'; [X] 'escalation'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02527236938477
+454,Warning,0.95,False,False,False,[+] 'on track'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02932548522949
+455,Good,0.95,False,False,False,[+] 'team morale is high',"Weighted keyword analysis: Good=2.0, Warning=0.0, Critical=0.0",50.010013580322266
+456,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02384185791016
+457,Warning,0.92,False,False,False,[!] 'delayed by',"Weighted keyword analysis: Good=0.0, Warning=2.0, Critical=0.0",50.008583068847656
+458,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02360343933105
+459,Critical,0.95,False,False,False,[+] 'positive'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02670288085938
+460,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02789497375488
+461,Good,0.95,False,False,False,[+] 'positive stakeholder'; [+] 'positive',"Weighted keyword analysis: Good=3.5, Warning=0.0, Critical=0.0",50.01072883605957
+462,Good,0.95,False,False,False,[+] 'positive stakeholder'; [+] 'positive',"Weighted keyword analysis: Good=3.5, Warning=0.0, Critical=0.0",50.00476837158203
+463,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02384185791016
+464,Warning,0.95,True,False,False,[!] 'slightly below target'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02741813659668
+465,Critical,0.95,False,False,False,[X] 'legal compliance issues',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=4.0",50.00929832458496
+466,Critical,0.95,False,False,False,[X] 'legal compliance issues',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=4.0",50.00429153442383
+467,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02241134643555
+468,Good,0.8833333333333333,False,False,False,[+] 'on schedule'; [!] 'concern',"Weighted keyword analysis: Good=3.0, Warning=1.5, Critical=0.0",50.01335144042969
+469,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02527236938477
+470,Good,0.95,True,False,False,[+] 'excellent'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.0312328338623
+471,Critical,0.95,False,False,False,[X] 'major budget overrun'; [X] 'budget overrun'; [X] 'overrun',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=10.5",50.008344650268555
+472,Good,0.95,False,False,False,[+] 'optimally allocated'; [+] 'efficiency improved',"Weighted keyword analysis: Good=4.0, Warning=0.0, Critical=0.0",50.006914138793945
+473,Good,0.95,False,False,False,[+] 'healthy',"Weighted keyword analysis: Good=1.5, Warning=0.0, Critical=0.0",50.005245208740234
+474,Warning,0.95,True,False,False,[+] 'excellent'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02384185791016
+475,Good,0.95,False,False,False,[+] 'positive'; [!] 'concern'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02932548522949
+476,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02837181091309
+477,Critical,0.95,False,False,False,[X] 'major budget overrun'; [X] 'budget overrun'; [X] 'overrun',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=10.5",50.00929832458496
+478,Good,0.95,False,False,False,[+] 'progressing well',"Weighted keyword analysis: Good=2.5, Warning=0.0, Critical=0.0",50.005483627319336
+479,Warning,0.92,False,False,False,[!] 'communication gaps',"Weighted keyword analysis: Good=0.0, Warning=2.0, Critical=0.0",50.00596046447754
+480,Critical,0.95,False,False,False,[X] 'security vulnerability',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=4.0",50.00500679016113
+481,Good,0.95,False,False,False,[+] 'all milestones achieved'; [+] 'on time',"Weighted keyword analysis: Good=5.5, Warning=0.0, Critical=0.0",50.00500679016113
+482,Critical,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02312660217285
+483,Critical,0.95,False,False,False,[X] 'budget exceeded'; [X] 'exceeded by 40%'; [X] 'no additional funding',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=10.5",50.00953674316406
+484,Good,0.95,False,False,False,[+] 'optimally allocated'; [+] 'efficiency improved',"Weighted keyword analysis: Good=4.0, Warning=0.0, Critical=0.0",50.00643730163574
+485,Critical,0.95,False,False,False,[X] 'slipped significantly',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=3.5",50.00476837158203
+486,Good,0.95,True,False,False,[+] 'healthy'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02765655517578
+487,Critical,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02622604370117
+488,Warning,0.92,False,False,False,[!] 'communication gaps',"Weighted keyword analysis: Good=0.0, Warning=2.0, Critical=0.0",50.00953674316406
+489,Warning,0.92,False,False,False,[!] 'resource constraints'; [!] 'small delays',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.00596046447754
+490,Warning,0.95,False,False,False,[+] 'client satisfaction'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02789497375488
+491,Warning,0.9357142857142857,True,False,False,[+] 'on track'; [!] 'concern'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02789497375488
+492,Critical,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02622604370117
+493,Critical,0.95,True,False,False,[+] 'client satisfaction'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.030517578125
+494,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02789497375488
+495,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02741813659668
+496,Critical,0.95,False,False,False,[X] 'budget exceeded'; [X] 'exceeded by 40%'; [X] 'no additional funding',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=10.5",50.01025199890137
+497,Good,0.95,True,False,False,[+] 'healthy'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.0295639038086
+498,Good,0.95,True,False,False,[+] 'excellent'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.0309944152832
+499,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02670288085938
+500,Good,0.95,True,False,False,[+] 'positive stakeholder'; [+] 'positive'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02765655517578
+501,Good,0.95,False,False,False,[+] 'positive stakeholder'; [+] 'positive',"Weighted keyword analysis: Good=3.5, Warning=0.0, Critical=0.0",50.010013580322266
+502,Good,0.95,False,False,False,[+] 'excellent'; [+] 'ahead of schedule',"Weighted keyword analysis: Good=5.5, Warning=0.0, Critical=0.0",50.006675720214844
+503,Critical,0.95,True,False,False,[+] 'healthy'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02455711364746
+504,Critical,0.95,False,False,False,[X] 'budget exceeded'; [X] 'exceeded by 40%'; [X] 'no additional funding',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=10.5",50.009775161743164
+505,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02813339233398
+506,Good,0.95,False,False,False,[+] 'optimally allocated'; [+] 'efficiency improved',"Weighted keyword analysis: Good=4.0, Warning=0.0, Critical=0.0",50.009775161743164
+507,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02360343933105
+508,Critical,0.95,False,False,False,[X] 'security vulnerability',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=4.0",50.008583068847656
+509,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02431869506836
+510,Warning,0.92,False,False,False,[!] 'minor scope creep'; [!] 'monitoring closely',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.01025199890137
+511,Warning,0.92,False,False,False,[!] 'slightly below target',"Weighted keyword analysis: Good=0.0, Warning=2.0, Critical=0.0",50.005245208740234
+512,Warning,0.92,False,False,False,[!] 'budget variance'; [!] 'corrective action',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.00572204589844
+513,Warning,0.92,False,False,False,[!] 'team capacity stretched'; [!] 'overtime required',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.00500679016113
+514,Critical,0.95,False,False,False,[X] 'security vulnerability',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=4.0",50.00500679016113
+515,Critical,0.95,False,False,False,[X] 'legal compliance issues',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=4.0",50.00476837158203
+516,Warning,0.92,False,False,False,[!] 'timeline at risk',"Weighted keyword analysis: Good=0.0, Warning=2.5, Critical=0.0",50.00619888305664
+517,Critical,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02408027648926
+518,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02503395080566
+519,Critical,0.95,False,False,False,[X] 'critical resource resignation'; [X] 'resignation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=6.5",50.00929832458496
+520,Good,0.8833333333333333,False,False,False,[+] 'on schedule'; [!] 'concern',"Weighted keyword analysis: Good=3.0, Warning=1.5, Critical=0.0",50.01072883605957
+521,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02527236938477
+522,Critical,0.95,False,False,False,[X] 'urgent intervention'; [X] 'client escalation'; [X] 'escalation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=9.5",50.01072883605957
+523,Critical,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02264976501465
+524,Good,0.95,False,False,False,[+] 'team morale is high'; [+] 'exceeding expectations',"Weighted keyword analysis: Good=4.5, Warning=0.0, Critical=0.0",50.01049041748047
+525,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02741813659668
+526,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02765655517578
+527,Warning,0.85,False,False,False,[+] 'good progress'; [!] 'morale declining'; ⚠ Ambiguity: Mixed signals detected; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.0302791595459
+528,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02670288085938
+529,Warning,0.95,True,False,False,[!] 'slight delay'; [!] 'slight delays'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02837181091309
+530,Warning,0.95,True,False,False,[!] 'skills gap'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02789497375488
+531,Warning,0.92,False,False,False,[!] 'slightly below target',"Weighted keyword analysis: Good=0.0, Warning=2.0, Critical=0.0",50.00882148742676
+532,Good,0.95,False,False,False,[+] 'no blockers'; [+] 'smooth execution',"Weighted keyword analysis: Good=5.0, Warning=0.0, Critical=0.0",50.006675720214844
+533,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02479553222656
+534,Warning,0.92,False,False,False,[!] 'skills gap',"Weighted keyword analysis: Good=0.0, Warning=1.5, Critical=0.0",50.01025199890137
+535,Good,0.95,False,False,False,[+] 'on schedule'; [+] 'under budget',"Weighted keyword analysis: Good=6.0, Warning=0.0, Critical=0.0",50.00596046447754
+536,Good,0.8833333333333333,False,False,False,[+] 'on schedule'; [!] 'concern',"Weighted keyword analysis: Good=3.0, Warning=1.5, Critical=0.0",50.009775161743164
+537,Critical,0.95,False,False,False,[X] 'at risk of cancellation'; [X] 'cancellation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=7.5",50.005483627319336
+538,Warning,0.95,True,False,False,[!] 'skills gap'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02264976501465
+539,Good,0.95,False,False,False,[+] 'team morale is high'; [+] 'exceeding expectations',"Weighted keyword analysis: Good=4.5, Warning=0.0, Critical=0.0",50.01025199890137
+540,Good,0.95,False,False,False,[+] 'on track',"Weighted keyword analysis: Good=2.0, Warning=0.0, Critical=0.0",50.00643730163574
+541,Good,0.95,False,False,False,[+] 'healthy',"Weighted keyword analysis: Good=1.5, Warning=0.0, Critical=0.0",50.00596046447754
+542,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02884864807129
+543,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02694129943848
+544,Critical,0.95,False,False,False,[X] 'major budget overrun'; [X] 'budget overrun'; [X] 'overrun',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=10.5",50.008344650268555
+545,Warning,0.92,False,False,False,[!] 'slight delay'; [!] 'slight delays',"Weighted keyword analysis: Good=0.0, Warning=5.0, Critical=0.0",50.00619888305664
+546,Critical,0.95,False,False,False,[X] 'legal compliance issues',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=4.0",50.00500679016113
+547,Good,0.95,True,False,False,[+] 'optimally allocated'; [+] 'efficiency improved'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02455711364746
+548,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02670288085938
+549,Good,0.95,False,False,False,[+] 'on track',"Weighted keyword analysis: Good=2.0, Warning=0.0, Critical=0.0",50.00929832458496
+550,Critical,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02312660217285
+551,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02598762512207
+552,Good,0.95,False,False,False,[+] 'all milestones achieved'; [+] 'on time',"Weighted keyword analysis: Good=5.5, Warning=0.0, Critical=0.0",50.010013580322266
+553,Critical,0.95,False,False,False,[X] 'failed acceptance testing'; [X] 'failed',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=7.0",50.006675720214844
+554,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02336502075195
+555,Warning,0.92,False,False,False,[!] 'slight delay'; [!] 'slight delays',"Weighted keyword analysis: Good=0.0, Warning=5.0, Critical=0.0",50.00882148742676
+556,Critical,0.95,True,False,False,[+] 'healthy'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02551078796387
+557,Good,0.95,False,False,False,[+] 'progressing well',"Weighted keyword analysis: Good=2.5, Warning=0.0, Critical=0.0",50.00905990600586
+558,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02455711364746
+559,Good,0.95,False,False,False,[+] 'on schedule'; [+] 'under budget',"Weighted keyword analysis: Good=6.0, Warning=0.0, Critical=0.0",50.00882148742676
+560,Warning,0.85,False,False,False,[+] 'positive'; [!] 'concern',"Weighted keyword analysis: Good=1.5, Warning=1.5, Critical=0.0",50.006914138793945
+561,Warning,0.92,False,False,False,[!] 'communication gaps',"Weighted keyword analysis: Good=0.0, Warning=2.0, Critical=0.0",50.005483627319336
+562,Good,0.95,False,False,False,[+] 'team morale is high'; [+] 'exceeding expectations',"Weighted keyword analysis: Good=4.5, Warning=0.0, Critical=0.0",50.00619888305664
+563,Good,0.95,False,False,False,[+] 'optimally allocated'; [+] 'efficiency improved',"Weighted keyword analysis: Good=4.0, Warning=0.0, Critical=0.0",50.00596046447754
+564,Good,0.95,False,False,False,[+] 'excellent',"Weighted keyword analysis: Good=2.5, Warning=0.0, Critical=0.0",50.005483627319336
+565,Good,0.95,False,False,False,[+] 'healthy',"Weighted keyword analysis: Good=1.5, Warning=0.0, Critical=0.0",50.00476837158203
+566,Critical,0.95,False,False,False,[X] 'legal compliance issues',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=4.0",50.00452995300293
+567,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02741813659668
+568,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02694129943848
+569,Good,0.95,False,False,False,[X] 'escalation'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02670288085938
+570,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02479553222656
+571,Good,0.95,False,False,False,[+] 'on schedule'; [+] 'under budget',"Weighted keyword analysis: Good=6.0, Warning=0.0, Critical=0.0",50.00929832458496
+572,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02789497375488
+573,Warning,0.92,False,False,False,[!] 'corrective action',"Weighted keyword analysis: Good=0.0, Warning=2.0, Critical=0.0",50.00953674316406
+574,Critical,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02384185791016
+575,Critical,0.95,False,False,False,[X] 'major budget overrun'; [X] 'budget overrun'; [X] 'overrun',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=10.5",50.00810623168945
+576,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02527236938477
+577,Warning,0.9357142857142857,True,False,False,[+] 'on track'; [!] 'concern'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02741813659668
+578,Warning,0.95,True,False,False,[!] 'timeline at risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02932548522949
+579,Warning,0.92,False,False,False,[!] 'budget variance',"Weighted keyword analysis: Good=0.0, Warning=2.0, Critical=0.0",50.01335144042969
+580,Critical,0.95,False,False,False,[X] 'urgent intervention'; [X] 'client escalation'; [X] 'escalation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=9.5",50.006914138793945
+581,Warning,0.95,True,False,False,[!] 'communication gaps'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02479553222656
+582,Warning,0.92,False,False,False,[!] 'slightly below target',"Weighted keyword analysis: Good=0.0, Warning=2.0, Critical=0.0",50.009775161743164
+583,Good,0.95,False,False,False,[+] 'healthy',"Weighted keyword analysis: Good=1.5, Warning=0.0, Critical=0.0",50.01120567321777
+584,Warning,0.92,False,False,False,[!] 'delayed by',"Weighted keyword analysis: Good=0.0, Warning=2.0, Critical=0.0",50.00619888305664
+585,Good,0.95,False,False,False,[+] 'excellent'; [+] 'ahead of schedule',"Weighted keyword analysis: Good=5.5, Warning=0.0, Critical=0.0",50.00715255737305
+586,Warning,0.92,False,False,False,[!] 'budget variance'; [!] 'corrective action',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.00596046447754
+587,Critical,0.95,False,False,False,[X] 'major budget overrun'; [X] 'budget overrun'; [X] 'overrun',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=10.5",50.00476837158203
+588,Critical,0.95,False,False,False,[X] 'stakeholder confidence severely'; [X] 'severely impacted',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=6.5",50.00500679016113
+589,Good,0.95,False,False,False,[+] 'excellent',"Weighted keyword analysis: Good=2.5, Warning=0.0, Critical=0.0",50.00882148742676
+590,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02837181091309
+591,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02884864807129
+592,Good,0.95,False,False,False,[+] 'on schedule',"Weighted keyword analysis: Good=3.0, Warning=0.0, Critical=0.0",50.00810623168945
+593,Good,0.95,False,False,False,[+] 'healthy',"Weighted keyword analysis: Good=1.5, Warning=0.0, Critical=0.0",50.006675720214844
+594,Good,0.95,False,False,False,[+] 'excellent',"Weighted keyword analysis: Good=2.5, Warning=0.0, Critical=0.0",50.00596046447754
+595,Warning,0.92,False,False,False,[!] 'slight delay'; [!] 'slight delays',"Weighted keyword analysis: Good=0.0, Warning=5.0, Critical=0.0",50.00596046447754
+596,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02479553222656
+597,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02741813659668
+598,Warning,0.92,False,False,False,[!] 'slightly below target',"Weighted keyword analysis: Good=0.0, Warning=2.0, Critical=0.0",50.00905990600586
+599,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02503395080566
+600,Warning,0.92,False,False,False,[!] 'team capacity stretched'; [!] 'overtime required',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.009775161743164
+601,Warning,0.85,False,False,False,[+] 'good progress'; [!] 'morale declining'; ⚠ Ambiguity: Mixed signals detected; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02551078796387
+602,Critical,0.95,False,False,False,[X] 'major budget overrun'; [X] 'budget overrun'; [X] 'overrun',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=10.5",50.00810623168945
+603,Good,0.95,False,False,False,[+] 'excellent'; [+] 'ahead of schedule',"Weighted keyword analysis: Good=5.5, Warning=0.0, Critical=0.0",50.00715255737305
+604,Warning,0.95,False,False,False,[+] 'on track'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02384185791016
+605,Good,0.95,True,False,False,[+] 'healthy'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.0312328338623
+606,Good,0.95,False,False,False,[+] 'on track',"Weighted keyword analysis: Good=2.0, Warning=0.0, Critical=0.0",50.01215934753418
+607,Warning,0.92,False,False,False,[!] 'communication gaps',"Weighted keyword analysis: Good=0.0, Warning=2.0, Critical=0.0",50.00619888305664
+608,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02288818359375
+609,Critical,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02527236938477
+610,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02622604370117
+611,Critical,0.95,False,False,False,[X] 'budget exceeded'; [X] 'exceeded by 40%'; [X] 'no additional funding',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=10.5",50.00929832458496
+612,Critical,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02360343933105
+613,Good,0.95,False,False,False,[+] 'progressing well',"Weighted keyword analysis: Good=2.5, Warning=0.0, Critical=0.0",50.00882148742676
+614,Warning,0.95,True,False,False,[!] 'skills gap'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02527236938477
+615,Critical,0.95,False,False,False,[X] 'major budget overrun'; [X] 'budget overrun'; [X] 'overrun',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=10.5",50.00882148742676
+616,Critical,0.95,False,False,False,[+] 'on track'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.0298023223877
+617,Critical,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02598762512207
+618,Warning,0.95,False,False,False,[+] 'on track'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02789497375488
+619,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02837181091309
+620,Good,0.95,False,False,False,[+] 'optimally allocated'; [+] 'efficiency improved',"Weighted keyword analysis: Good=4.0, Warning=0.0, Critical=0.0",50.01025199890137
+621,Critical,0.95,False,False,False,[X] 'budget exceeded'; [X] 'exceeded by 40%'; [X] 'no additional funding',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=10.5",50.006914138793945
+622,Critical,0.95,True,False,False,[X] 'failed acceptance testing'; [X] 'failed'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02527236938477
+623,Critical,0.95,False,False,False,[X] 'major budget overrun'; [X] 'budget overrun'; [X] 'overrun',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=10.5",50.008344650268555
+624,Warning,0.95,True,False,False,[!] 'slight delay'; [!] 'slight delays'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02360343933105
+625,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02717971801758
+626,Warning,0.92,False,False,False,[!] 'minor scope creep'; [!] 'monitoring closely',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.010013580322266
+627,Warning,0.9357142857142857,False,False,False,[+] 'on track'; [!] 'concern'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02479553222656
+628,Warning,0.85,False,False,False,[+] 'positive'; [!] 'concern',"Weighted keyword analysis: Good=1.5, Warning=1.5, Critical=0.0",50.01049041748047
+629,Critical,0.95,False,False,False,[X] 'at risk of cancellation'; [X] 'cancellation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=7.5",50.005483627319336
+630,Good,0.95,False,False,False,[+] 'progressing well',"Weighted keyword analysis: Good=2.5, Warning=0.0, Critical=0.0",50.00476837158203
+631,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02455711364746
+632,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.030517578125
+633,Warning,0.85,False,False,False,[+] 'positive'; [!] 'concern',"Weighted keyword analysis: Good=1.5, Warning=1.5, Critical=0.0",50.010013580322266
+634,Warning,0.92,False,False,False,[!] 'delayed by',"Weighted keyword analysis: Good=0.0, Warning=2.0, Critical=0.0",50.00596046447754
+635,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02312660217285
+636,Good,0.95,False,False,False,[+] 'excellent'; [+] 'ahead of schedule',"Weighted keyword analysis: Good=5.5, Warning=0.0, Critical=0.0",50.010013580322266
+637,Good,0.95,True,False,False,[!] 'budget variance'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.0295639038086
+638,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02717971801758
+639,Good,0.95,False,False,False,[+] 'team morale is high',"Weighted keyword analysis: Good=2.0, Warning=0.0, Critical=0.0",50.010013580322266
+640,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02408027648926
+641,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.0307559967041
+642,Critical,0.95,False,False,False,[X] 'at risk of cancellation'; [X] 'cancellation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=7.5",50.00905990600586
+643,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02360343933105
+644,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02551078796387
+645,Good,0.95,False,False,False,[+] 'excellent',"Weighted keyword analysis: Good=2.5, Warning=0.0, Critical=0.0",50.00953674316406
+646,Good,0.95,False,False,False,[+] 'on track',"Weighted keyword analysis: Good=2.0, Warning=0.0, Critical=0.0",50.00572204589844
+647,Warning,0.92,False,False,False,[!] 'slightly below target',"Weighted keyword analysis: Good=0.0, Warning=2.0, Critical=0.0",50.005245208740234
+648,Critical,0.95,False,False,False,[X] 'critical resource resignation'; [X] 'resignation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=6.5",50.00572204589844
+649,Critical,0.95,False,False,False,[X] 'legal compliance issues',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=4.0",50.00476837158203
+650,Critical,0.95,True,False,False,[X] 'budget overrun'; [X] 'overrun'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02789497375488
+651,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02694129943848
+652,Good,0.95,True,False,False,[+] 'positive stakeholder'; [+] 'positive'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02837181091309
+653,Good,0.95,False,False,False,[+] 'exceeding expectations',"Weighted keyword analysis: Good=2.5, Warning=0.0, Critical=0.0",50.01025199890137
+654,Good,0.95,False,False,False,[+] 'on track',"Weighted keyword analysis: Good=2.0, Warning=0.0, Critical=0.0",50.00596046447754
+655,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02384185791016
+656,Critical,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02527236938477
+657,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.0312328338623
+658,Warning,0.92,False,False,False,[!] 'communication gaps',"Weighted keyword analysis: Good=0.0, Warning=2.0, Critical=0.0",50.06985664367676
+659,Warning,0.92,False,False,False,[!] 'minor scope creep'; [!] 'monitoring closely',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.00786781311035
+660,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02717971801758
+661,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02694129943848
+662,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02694129943848
+663,Good,0.95,True,False,False,[+] 'healthy'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.03242492675781
+664,Critical,0.95,False,False,False,[X] 'critical resource resignation'; [X] 'resignation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=6.5",50.00905990600586
+665,Good,0.95,False,False,False,[+] 'optimally allocated'; [+] 'efficiency improved',"Weighted keyword analysis: Good=4.0, Warning=0.0, Critical=0.0",50.006675720214844
+666,Critical,0.95,False,False,False,[X] 'critical resource resignation'; [X] 'resignation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=6.5",50.00452995300293
+667,Warning,0.92,False,False,False,[!] 'slightly below target',"Weighted keyword analysis: Good=0.0, Warning=2.0, Critical=0.0",50.005245208740234
+668,Warning,0.95,False,False,False,[+] 'on track'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02408027648926
+669,Critical,0.95,True,False,False,[X] 'no additional funding'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02884864807129
+670,Good,0.8833333333333333,False,False,False,[+] 'on schedule'; [!] 'concern',"Weighted keyword analysis: Good=3.0, Warning=1.5, Critical=0.0",50.014305114746094
+671,Good,0.95,True,False,False,[+] 'positive'; [!] 'concern'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02431869506836
+672,Critical,0.95,False,False,False,[X] 'slipped significantly',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=3.5",50.00882148742676
+673,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02312660217285
+674,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02765655517578
+675,Critical,0.95,False,False,False,[X] 'legal compliance issues',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=4.0",50.008583068847656
+676,Warning,0.85,False,False,False,[+] 'positive'; [!] 'concern',"Weighted keyword analysis: Good=1.5, Warning=1.5, Critical=0.0",50.006914138793945
+677,Critical,0.95,True,False,False,[X] 'budget exceeded'; [X] 'exceeded by 40%'; [X] 'no additional funding'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02598762512207
+678,Good,0.95,False,False,False,[+] 'on track',"Weighted keyword analysis: Good=2.0, Warning=0.0, Critical=0.0",50.010013580322266
+679,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02384185791016
+680,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02717971801758
+681,Good,0.95,True,False,False,[+] 'healthy'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.03314018249512
+682,Good,0.95,False,False,False,[+] 'healthy',"Weighted keyword analysis: Good=1.5, Warning=0.0, Critical=0.0",50.01025199890137
+683,Good,0.95,False,False,False,[+] 'optimally allocated'; [+] 'efficiency improved',"Weighted keyword analysis: Good=4.0, Warning=0.0, Critical=0.0",50.006914138793945
+684,Warning,0.92,False,False,False,[!] 'budget is close'; [!] 'close to the limit',"Weighted keyword analysis: Good=0.0, Warning=5.0, Critical=0.0",50.005245208740234
+685,Critical,0.95,False,False,False,[X] 'slipped significantly',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=3.5",50.00500679016113
+686,Critical,0.95,False,False,False,[X] 'critical resource resignation'; [X] 'resignation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=6.5",50.005483627319336
+687,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02503395080566
+688,Good,0.95,True,False,False,[+] 'on track'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02717971801758
+689,Warning,0.95,True,False,False,[!] 'slight delay'; [!] 'slight delays'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02789497375488
+690,Warning,0.95,True,False,False,[!] 'budget is close'; [!] 'close to the limit'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02670288085938
+691,Good,0.95,False,False,False,[+] 'excellent'; [+] 'ahead of schedule',"Weighted keyword analysis: Good=5.5, Warning=0.0, Critical=0.0",50.01049041748047
+692,Good,0.95,False,False,False,[+] 'positive'; [!] 'concern'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.03504753112793
+693,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02527236938477
+694,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02598762512207
+695,Critical,0.95,False,False,False,[X] 'budget overrun'; [X] 'overrun',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=6.5",50.01263618469238
+696,Good,0.95,False,False,False,[!] 'budget variance'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02670288085938
+697,Good,0.95,False,False,False,[+] 'positive'; [!] 'concern'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02789497375488
+698,Critical,0.95,True,False,False,[X] 'slipped significantly'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02837181091309
+699,Good,0.95,False,False,False,[+] 'progressing well',"Weighted keyword analysis: Good=2.5, Warning=0.0, Critical=0.0",50.00953674316406
+700,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02479553222656
+701,Good,0.95,False,False,False,[+] 'on schedule'; [+] 'under budget',"Weighted keyword analysis: Good=6.0, Warning=0.0, Critical=0.0",50.008583068847656
+702,Critical,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02837181091309
+703,Good,0.95,False,False,False,[+] 'positive stakeholder'; [+] 'positive',"Weighted keyword analysis: Good=3.5, Warning=0.0, Critical=0.0",50.00929832458496
+704,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02336502075195
+705,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02646446228027
+706,Warning,0.9357142857142857,True,False,False,[+] 'on track'; [!] 'concern'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02717971801758
+707,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02837181091309
+708,Good,0.95,False,False,False,[+] 'no blockers'; [+] 'smooth execution',"Weighted keyword analysis: Good=5.0, Warning=0.0, Critical=0.0",50.00953674316406
+709,Good,0.95,False,False,False,[+] 'positive',"Weighted keyword analysis: Good=1.5, Warning=0.0, Critical=0.0",50.00619888305664
+710,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02264976501465
+711,Critical,0.95,False,False,False,[X] 'critical resource resignation'; [X] 'resignation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=6.5",50.00882148742676
+712,Warning,0.92,False,False,False,[!] 'timeline at risk',"Weighted keyword analysis: Good=0.0, Warning=2.5, Critical=0.0",50.006675720214844
+713,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02241134643555
+714,Warning,0.92,False,False,False,[!] 'resource constraints'; [!] 'small delays',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.00905990600586
+715,Critical,0.95,False,False,False,[X] 'legal compliance issues',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=4.0",50.00572204589844
+716,Good,0.95,False,False,False,[+] 'team morale is high'; [+] 'exceeding expectations',"Weighted keyword analysis: Good=4.5, Warning=0.0, Critical=0.0",50.006914138793945
+717,Warning,0.95,True,False,False,[!] 'slight delay'; [!] 'slight delays'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02384185791016
+718,Critical,0.95,False,False,False,[X] 'failed acceptance testing'; [X] 'failed',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=7.0",50.00929832458496
+719,Critical,0.95,False,False,False,[X] 'critical resource resignation'; [X] 'resignation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=6.5",50.00572204589844
+720,Critical,0.95,True,False,False,[X] 'budget overrun'; [X] 'overrun'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02789497375488
+721,Warning,0.92,False,False,False,[!] 'communication gaps',"Weighted keyword analysis: Good=0.0, Warning=2.0, Critical=0.0",50.00953674316406
+722,Critical,0.95,False,False,False,[X] 'at risk of cancellation'; [X] 'cancellation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=7.5",50.00596046447754
+723,Good,0.95,False,False,False,[+] 'on track',"Weighted keyword analysis: Good=2.0, Warning=0.0, Critical=0.0",50.005245208740234
+724,Critical,0.95,False,False,False,[X] 'slipped significantly',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=3.5",50.00500679016113
+725,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02503395080566
+726,Warning,0.92,False,False,False,[!] 'resource constraints'; [!] 'small delays',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.00905990600586
+727,Warning,0.92,False,False,False,[!] 'budget variance'; [!] 'corrective action',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.00619888305664
+728,Warning,0.95,True,False,False,[!] 'timeline at risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02455711364746
+729,Critical,0.95,False,False,False,[+] 'healthy'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02837181091309
+730,Good,0.95,False,False,False,[+] 'positive',"Weighted keyword analysis: Good=1.5, Warning=0.0, Critical=0.0",50.00882148742676
+731,Good,0.95,False,False,False,[+] 'on schedule'; [+] 'under budget',"Weighted keyword analysis: Good=6.0, Warning=0.0, Critical=0.0",50.00596046447754
+732,Good,0.95,False,False,False,[+] 'on schedule'; [+] 'under budget',"Weighted keyword analysis: Good=6.0, Warning=0.0, Critical=0.0",50.00405311584473
+733,Critical,0.95,False,False,False,[X] 'stakeholder confidence severely'; [X] 'severely impacted',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=6.5",50.00619888305664
+734,Critical,0.95,True,False,False,[+] 'on track'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02884864807129
+735,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02646446228027
+736,Good,0.95,False,False,False,[+] 'healthy',"Weighted keyword analysis: Good=1.5, Warning=0.0, Critical=0.0",50.00882148742676
+737,Critical,0.95,False,False,False,[X] 'security vulnerability',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=4.0",50.005483627319336
+738,Warning,0.95,True,False,False,[!] 'skills gap'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02431869506836
+739,Critical,0.95,True,False,False,[X] 'security vulnerability'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02717971801758
+740,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02598762512207
+741,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02574920654297
+742,Warning,0.92,False,False,False,[!] 'slight delay'; [!] 'slight delays',"Weighted keyword analysis: Good=0.0, Warning=5.0, Critical=0.0",50.008583068847656
+743,Critical,0.95,False,False,False,[X] 'slipped significantly',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=3.5",50.005483627319336
+744,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02455711364746
+745,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02670288085938
+746,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02861022949219
+747,Warning,0.85,False,False,False,[+] 'good progress'; [!] 'morale declining'; ⚠ Ambiguity: Mixed signals detected; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02884864807129
+748,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02717971801758
+749,Warning,0.92,False,False,False,[!] 'minor scope creep'; [!] 'monitoring closely',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.009775161743164
+750,Warning,0.85,False,False,False,[+] 'positive'; [!] 'concern',"Weighted keyword analysis: Good=1.5, Warning=1.5, Critical=0.0",50.00619888305664
+751,Critical,0.95,True,False,False,[X] 'major budget overrun'; [X] 'budget overrun'; [X] 'overrun'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02408027648926
+752,Good,0.95,False,False,False,[+] 'no blockers'; [+] 'smooth execution',"Weighted keyword analysis: Good=5.0, Warning=0.0, Critical=0.0",50.00953674316406
+753,Critical,0.95,True,False,False,[X] 'stakeholder confidence severely'; [X] 'severely impacted'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02431869506836
+754,Critical,0.95,False,False,False,[X] 'security vulnerability',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=4.0",50.00953674316406
+755,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02336502075195
+756,Warning,0.92,False,False,False,[!] 'budget variance'; [!] 'corrective action',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.00929832458496
+757,Good,0.95,False,False,False,[+] 'on schedule'; [+] 'under budget',"Weighted keyword analysis: Good=6.0, Warning=0.0, Critical=0.0",50.00596046447754
+758,Warning,0.85,False,False,False,[+] 'positive'; [!] 'concern',"Weighted keyword analysis: Good=1.5, Warning=1.5, Critical=0.0",50.00619888305664
+759,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02408027648926
+760,Critical,0.95,False,False,False,[X] 'urgent intervention'; [X] 'client escalation'; [X] 'escalation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=9.5",50.01049041748047
+761,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02694129943848
+762,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02813339233398
+763,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02646446228027
+764,Warning,0.92,False,False,False,[!] 'communication gaps',"Weighted keyword analysis: Good=0.0, Warning=2.0, Critical=0.0",50.00953674316406
+765,Good,0.95,False,False,False,[+] 'on track',"Weighted keyword analysis: Good=2.0, Warning=0.0, Critical=0.0",50.00619888305664
+766,Critical,0.95,False,False,False,[X] 'budget exceeded'; [X] 'exceeded by 40%'; [X] 'no additional funding',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=10.5",50.00619888305664
+767,Critical,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02765655517578
+768,Warning,0.92,False,False,False,[!] 'skills gap',"Weighted keyword analysis: Good=0.0, Warning=1.5, Critical=0.0",50.010013580322266
+769,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02455711364746
+770,Critical,0.95,False,False,False,[+] 'on track'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.03290176391602
+771,Warning,0.9357142857142857,True,False,False,[+] 'on track'; [!] 'concern'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.0298023223877
+772,Warning,0.92,False,False,False,[!] 'team capacity stretched',"Weighted keyword analysis: Good=0.0, Warning=2.0, Critical=0.0",50.009775161743164
+773,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02503395080566
+774,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.0298023223877
+775,Good,0.95,False,False,False,[+] 'on schedule',"Weighted keyword analysis: Good=3.0, Warning=0.0, Critical=0.0",50.00786781311035
+776,Warning,0.92,False,False,False,[!] 'minor scope creep'; [!] 'monitoring closely',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.006675720214844
+777,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02598762512207
+778,Critical,0.95,True,False,False,[X] 'security vulnerability'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.03266334533691
+779,Good,0.95,False,False,False,[+] 'all milestones achieved'; [+] 'on time',"Weighted keyword analysis: Good=5.5, Warning=0.0, Critical=0.0",50.008583068847656
+780,Good,0.95,False,False,False,[+] 'client satisfaction'; [+] '9/10',"Weighted keyword analysis: Good=5.0, Warning=0.0, Critical=0.0",50.00596046447754
+781,Warning,0.92,False,False,False,[!] 'minor scope creep'; [!] 'monitoring closely',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.00643730163574
+782,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02503395080566
+783,Warning,0.92,False,False,False,[!] 'skills gap',"Weighted keyword analysis: Good=0.0, Warning=1.5, Critical=0.0",50.01049041748047
+784,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02527236938477
+785,Warning,0.95,True,False,False,[!] 'budget is close'; [!] 'close to the limit'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02813339233398
+786,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.0298023223877
+787,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02717971801758
+788,Critical,0.95,True,False,False,[+] 'client satisfaction'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.0300407409668
+789,Critical,0.95,True,False,False,[X] 'budget exceeded'; [X] 'exceeded by 40%'; [X] 'no additional funding'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02884864807129
+790,Good,0.95,False,False,False,[+] 'excellent'; [+] 'ahead of schedule',"Weighted keyword analysis: Good=5.5, Warning=0.0, Critical=0.0",50.01072883605957
+791,Good,0.95,False,False,False,[+] 'no blockers'; [+] 'smooth execution',"Weighted keyword analysis: Good=5.0, Warning=0.0, Critical=0.0",50.00572204589844
+792,Critical,0.95,False,False,False,[X] 'overrun',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=3.0",50.00452995300293
+793,Critical,0.95,False,False,False,[X] 'major budget overrun'; [X] 'budget overrun'; [X] 'overrun',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=10.5",50.003814697265625
+794,Good,0.95,False,False,False,[!] 'concern'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02717971801758
+795,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02694129943848
+796,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02622604370117
+797,Critical,0.95,False,False,False,[X] 'stakeholder confidence severely'; [X] 'severely impacted',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=6.5",50.00929832458496
+798,Critical,0.95,False,False,False,[X] 'critical resource resignation'; [X] 'resignation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=6.5",50.005483627319336
+799,Good,0.95,False,False,False,[+] 'excellent',"Weighted keyword analysis: Good=2.5, Warning=0.0, Critical=0.0",50.00929832458496
+800,Critical,0.95,False,False,False,[X] 'slipped significantly',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=3.5",50.00452995300293
+801,Critical,0.95,False,False,False,[X] 'security vulnerability',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=4.0",50.00476837158203
+802,Critical,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02360343933105
+803,Critical,0.95,True,False,False,[+] 'healthy'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02861022949219
+804,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.03218650817871
+805,Critical,0.95,False,False,False,[X] 'security vulnerability',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=4.0",50.00929832458496
+806,Warning,0.92,False,False,False,[!] 'communication gaps',"Weighted keyword analysis: Good=0.0, Warning=2.0, Critical=0.0",50.00643730163574
+807,Critical,0.95,True,False,False,[+] 'healthy'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02598762512207
+808,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02741813659668
+809,Critical,0.95,False,False,False,[X] 'budget exceeded'; [X] 'exceeded by 40%'; [X] 'no additional funding',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=10.5",50.009775161743164
+810,Warning,0.92,False,False,False,[!] 'budget is close'; [!] 'close to the limit',"Weighted keyword analysis: Good=0.0, Warning=5.0, Critical=0.0",50.00572204589844
+811,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02384185791016
+812,Warning,0.92,False,False,False,[!] 'team capacity stretched'; [!] 'overtime required',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.00953674316406
+813,Warning,0.92,False,False,False,[!] 'budget variance'; [!] 'corrective action',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.00572204589844
+814,Warning,0.92,False,False,False,[!] 'communication gaps',"Weighted keyword analysis: Good=0.0, Warning=2.0, Critical=0.0",50.005483627319336
+815,Critical,0.95,False,False,False,[X] 'stakeholder confidence severely'; [X] 'severely impacted',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=6.5",50.00476837158203
+816,Critical,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02479553222656
+817,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02813339233398
+818,Critical,0.95,False,False,False,[+] 'healthy'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02813339233398
+819,Critical,0.95,False,False,False,[+] 'on schedule'; [!] 'concern'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.03385543823242
+820,Warning,0.92,False,False,False,[!] 'risk identified',"Weighted keyword analysis: Good=0.0, Warning=2.0, Critical=0.0",50.00882148742676
+821,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02551078796387
+822,Critical,0.95,False,False,False,[X] 'urgent intervention'; [X] 'client escalation'; [X] 'escalation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=9.5",50.01025199890137
+823,Critical,0.95,False,False,False,[X] 'at risk of cancellation'; [X] 'cancellation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=7.5",50.00572204589844
+824,Warning,0.92,False,False,False,[!] 'communication gaps',"Weighted keyword analysis: Good=0.0, Warning=2.0, Critical=0.0",50.00619888305664
+825,Good,0.95,False,False,False,[+] 'positive stakeholder'; [+] 'positive',"Weighted keyword analysis: Good=3.5, Warning=0.0, Critical=0.0",50.00572204589844
+826,Warning,0.92,False,False,False,[!] 'communication gaps',"Weighted keyword analysis: Good=0.0, Warning=2.0, Critical=0.0",50.00405311584473
+827,Critical,0.95,False,False,False,[X] 'slipped significantly',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=3.5",50.00476837158203
+828,Critical,0.95,True,False,False,[X] 'at risk of cancellation'; [X] 'cancellation'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02622604370117
+829,Good,0.95,False,False,False,[+] 'all milestones achieved'; [+] 'on time',"Weighted keyword analysis: Good=5.5, Warning=0.0, Critical=0.0",50.00929832458496
+830,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02455711364746
+831,Good,0.95,False,False,False,[+] 'progressing well',"Weighted keyword analysis: Good=2.5, Warning=0.0, Critical=0.0",50.008583068847656
+832,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02837181091309
+833,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02670288085938
+834,Good,0.95,False,False,False,[+] 'on schedule'; [+] 'under budget',"Weighted keyword analysis: Good=6.0, Warning=0.0, Critical=0.0",50.008583068847656
+835,Good,0.95,False,False,False,[+] 'on track',"Weighted keyword analysis: Good=2.0, Warning=0.0, Critical=0.0",50.00953674316406
+836,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02622604370117
+837,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02884864807129
+838,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.0298023223877
+839,Warning,0.92,False,False,False,[!] 'minor scope creep'; [!] 'monitoring closely',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.009775161743164
+840,Warning,0.92,False,False,False,[!] 'communication gaps',"Weighted keyword analysis: Good=0.0, Warning=2.0, Critical=0.0",50.00596046447754
+841,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02288818359375
+842,Good,0.95,True,False,False,[+] 'on schedule'; [+] 'under budget'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02622604370117
+843,Critical,0.95,False,False,False,[+] 'on track'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.03266334533691
+844,Good,0.95,False,False,False,[+] 'healthy',"Weighted keyword analysis: Good=1.5, Warning=0.0, Critical=0.0",50.00905990600586
+845,Warning,0.92,False,False,False,[!] 'resource constraints'; [!] 'small delays',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.00596046447754
+846,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02479553222656
+847,Good,0.95,False,False,False,[+] 'client satisfaction'; [+] '9/10',"Weighted keyword analysis: Good=5.0, Warning=0.0, Critical=0.0",50.00929832458496
+848,Critical,0.95,False,False,False,[X] 'major budget overrun'; [X] 'budget overrun'; [X] 'overrun',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=10.5",50.005245208740234
+849,Warning,0.92,False,False,False,[!] 'budget variance'; [!] 'corrective action',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.00643730163574
+850,Good,0.95,False,False,False,[+] 'healthy',"Weighted keyword analysis: Good=1.5, Warning=0.0, Critical=0.0",50.00905990600586
+851,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02813339233398
+852,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.0300407409668
+853,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02717971801758
+854,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02694129943848
+855,Warning,0.95,True,False,False,[!] 'minor scope creep'; [!] 'monitoring closely'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02837181091309
+856,Critical,0.95,True,False,False,[X] 'urgent intervention'; [X] 'client escalation'; [X] 'escalation'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02932548522949
+857,Critical,0.95,False,False,False,[X] 'at risk of cancellation'; [X] 'cancellation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=7.5",50.00929832458496
+858,Good,0.95,False,False,False,[+] 'excellent'; [+] 'ahead of schedule',"Weighted keyword analysis: Good=5.5, Warning=0.0, Critical=0.0",50.00715255737305
+859,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02479553222656
+860,Critical,0.95,False,False,False,[X] 'at risk of cancellation'; [X] 'cancellation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=7.5",50.00810623168945
+861,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02360343933105
+862,Critical,0.95,False,False,False,[+] 'on schedule'; [!] 'concern'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.03314018249512
+863,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02574920654297
+864,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02717971801758
+865,Warning,0.92,False,False,False,[!] 'timeline at risk',"Weighted keyword analysis: Good=0.0, Warning=2.5, Critical=0.0",50.01049041748047
+866,Critical,0.95,False,False,False,[X] 'at risk of cancellation'; [X] 'cancellation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=7.5",50.00572204589844
+867,Critical,0.95,False,False,False,[X] 'critical resource resignation'; [X] 'resignation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=6.5",50.005483627319336
+868,Warning,0.92,False,False,False,[!] 'delayed by',"Weighted keyword analysis: Good=0.0, Warning=2.0, Critical=0.0",50.005245208740234
+869,Good,0.95,True,False,False,[+] 'on track'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02384185791016
+870,Warning,0.95,True,False,False,[!] 'resource constraints'; [!] 'small delays'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02837181091309
+871,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02765655517578
+872,Good,0.95,False,False,False,[+] '9/10',"Weighted keyword analysis: Good=2.5, Warning=0.0, Critical=0.0",50.00905990600586
+873,Good,0.95,False,False,False,[+] 'healthy',"Weighted keyword analysis: Good=1.5, Warning=0.0, Critical=0.0",50.00905990600586
+874,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02408027648926
+875,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.0314712524414
+876,Good,0.95,False,False,False,[+] 'on schedule',"Weighted keyword analysis: Good=3.0, Warning=0.0, Critical=0.0",50.008583068847656
+877,Good,0.95,False,False,False,[+] 'healthy',"Weighted keyword analysis: Good=1.5, Warning=0.0, Critical=0.0",50.009775161743164
+878,Good,0.95,False,False,False,[+] 'excellent'; [+] 'ahead of schedule',"Weighted keyword analysis: Good=5.5, Warning=0.0, Critical=0.0",50.006675720214844
+879,Good,0.95,False,False,False,[+] 'no blockers'; [+] 'smooth execution',"Weighted keyword analysis: Good=5.0, Warning=0.0, Critical=0.0",50.005483627319336
+880,Warning,0.95,False,False,False,[+] 'healthy'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02408027648926
+881,Warning,0.95,True,False,False,[!] 'minor scope creep'; [!] 'monitoring closely'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02932548522949
+882,Warning,0.92,False,False,False,[!] 'timeline at risk',"Weighted keyword analysis: Good=0.0, Warning=2.5, Critical=0.0",50.010013580322266
+883,Good,0.95,False,False,False,[+] 'excellent'; [+] 'ahead of schedule',"Weighted keyword analysis: Good=5.5, Warning=0.0, Critical=0.0",50.00715255737305
+884,Good,0.95,False,False,False,[+] 'optimally allocated'; [+] 'efficiency improved',"Weighted keyword analysis: Good=4.0, Warning=0.0, Critical=0.0",50.00619888305664
+885,Good,0.95,True,False,False,[+] 'on track'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02408027648926
+886,Good,0.95,False,False,False,[+] 'excellent',"Weighted keyword analysis: Good=2.5, Warning=0.0, Critical=0.0",50.01335144042969
+887,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02813339233398
+888,Good,0.95,False,False,False,[+] 'optimally allocated'; [+] 'efficiency improved',"Weighted keyword analysis: Good=4.0, Warning=0.0, Critical=0.0",50.009775161743164
+889,Warning,0.92,False,False,False,[!] 'resource constraints'; [!] 'small delays',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.00619888305664
+890,Good,0.95,False,False,False,[+] 'no blockers'; [+] 'smooth execution',"Weighted keyword analysis: Good=5.0, Warning=0.0, Critical=0.0",50.00572204589844
+891,Warning,0.92,False,False,False,[!] 'budget is close'; [!] 'close to the limit',"Weighted keyword analysis: Good=0.0, Warning=5.0, Critical=0.0",50.00500679016113
+892,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02050399780273
+893,Good,0.95,True,False,False,[+] 'on track'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02884864807129
+894,Critical,0.95,False,False,False,[+] 'on schedule'; [!] 'concern'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.03433227539062
+895,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02741813659668
+896,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02622604370117
+897,Critical,0.95,False,False,False,[X] 'major budget overrun'; [X] 'budget overrun'; [X] 'overrun',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=10.5",50.00786781311035
+898,Critical,0.95,False,False,False,[X] 'urgent intervention'; [X] 'client escalation'; [X] 'escalation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=9.5",50.006914138793945
+899,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02670288085938
+900,Warning,0.92,False,False,False,[!] 'minor scope creep'; [!] 'monitoring closely',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.00953674316406
+901,Good,0.95,False,False,False,[+] 'all milestones achieved'; [+] 'on time',"Weighted keyword analysis: Good=5.5, Warning=0.0, Critical=0.0",50.00596046447754
+902,Warning,0.92,False,False,False,[!] 'resource constraints'; [!] 'small delays',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.005245208740234
+903,Critical,0.95,False,False,False,[X] 'legal compliance issues',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=4.0",50.00500679016113
+904,Warning,0.95,False,False,False,[+] 'healthy'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02336502075195
+905,Warning,0.92,False,False,False,[!] 'minor scope creep'; [!] 'monitoring closely',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.01025199890137
+906,Warning,0.95,False,False,False,[+] 'healthy'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02455711364746
+907,Critical,0.95,False,False,False,[+] 'on schedule'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02694129943848
+908,Good,0.95,False,False,False,[+] 'healthy',"Weighted keyword analysis: Good=1.5, Warning=0.0, Critical=0.0",50.01049041748047
+909,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02551078796387
+910,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.0307559967041
+911,Critical,0.95,False,False,False,[X] 'major budget overrun'; [X] 'budget overrun'; [X] 'overrun',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=10.5",50.00810623168945
+912,Good,0.95,False,False,False,[+] 'optimally allocated'; [+] 'efficiency improved',"Weighted keyword analysis: Good=4.0, Warning=0.0, Critical=0.0",50.00715255737305
+913,Good,0.95,False,False,False,[+] 'on schedule'; [+] 'under budget',"Weighted keyword analysis: Good=6.0, Warning=0.0, Critical=0.0",50.005245208740234
+914,Warning,0.92,False,False,False,[!] 'communication gaps',"Weighted keyword analysis: Good=0.0, Warning=2.0, Critical=0.0",50.00619888305664
+915,Critical,0.95,False,False,False,[X] 'legal compliance issues',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=4.0",50.00500679016113
+916,Good,0.95,False,False,False,[+] 'all milestones achieved'; [+] 'on time',"Weighted keyword analysis: Good=5.5, Warning=0.0, Critical=0.0",50.00500679016113
+917,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02360343933105
+918,Critical,0.95,False,False,False,[+] 'positive'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02837181091309
+919,Good,0.95,False,False,False,[!] 'budget variance'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.03194808959961
+920,Warning,0.92,False,False,False,[!] 'resource constraints'; [!] 'small delays',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.00953674316406
+921,Critical,0.95,False,False,False,[X] 'security vulnerability',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=4.0",50.005483627319336
+922,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02360343933105
+923,Good,0.95,False,False,False,[+] 'team morale is high'; [+] 'exceeding expectations',"Weighted keyword analysis: Good=4.5, Warning=0.0, Critical=0.0",50.00929832458496
+924,Warning,0.92,False,False,False,[!] 'resource constraints'; [!] 'small delays',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.00619888305664
+925,Warning,0.92,False,False,False,[!] 'budget variance'; [!] 'corrective action',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.00596046447754
+926,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02336502075195
+927,Critical,0.95,True,False,False,[+] 'on schedule'; [!] 'concern'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.03433227539062
+928,Critical,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02717971801758
+929,Warning,0.95,True,False,False,[!] 'slight delay'; [!] 'slight delays'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02741813659668
+930,Good,0.95,True,False,False,[+] 'progressing well'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02837181091309
+931,Critical,0.95,False,False,False,[X] 'legal compliance issues',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=4.0",50.00905990600586
+932,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02598762512207
+933,Warning,0.92,False,False,False,[!] 'budget is close'; [!] 'close to the limit',"Weighted keyword analysis: Good=0.0, Warning=5.0, Critical=0.0",50.00882148742676
+934,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02360343933105
+935,Good,0.95,False,False,False,[+] 'all milestones achieved'; [+] 'on time',"Weighted keyword analysis: Good=5.5, Warning=0.0, Critical=0.0",50.00953674316406
+936,Good,0.95,False,False,False,[+] 'on track',"Weighted keyword analysis: Good=2.0, Warning=0.0, Critical=0.0",50.00643730163574
+937,Warning,0.92,False,False,False,[!] 'slightly below target',"Weighted keyword analysis: Good=0.0, Warning=2.0, Critical=0.0",50.005483627319336
+938,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02884864807129
+939,Warning,0.95,True,False,False,[!] 'delayed by'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02837181091309
+940,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02717971801758
+941,Warning,0.92,False,False,False,[!] 'team capacity stretched'; [!] 'overtime required',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.009775161743164
+942,Good,0.95,True,False,False,[+] 'efficiency improved'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02598762512207
+943,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02789497375488
+944,Critical,0.95,True,False,False,[X] 'stakeholder confidence severely'; [X] 'severely impacted'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.0307559967041
+945,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.0307559967041
+946,Good,0.95,False,False,False,[+] 'team morale is high'; [+] 'exceeding expectations',"Weighted keyword analysis: Good=4.5, Warning=0.0, Critical=0.0",50.010013580322266
+947,Good,0.95,False,False,False,[+] 'client satisfaction'; [+] '9/10',"Weighted keyword analysis: Good=5.0, Warning=0.0, Critical=0.0",50.005483627319336
+948,Critical,0.95,False,False,False,[X] 'security vulnerability',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=4.0",50.00572204589844
+949,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02527236938477
+950,Good,0.95,False,False,False,[+] 'on track',"Weighted keyword analysis: Good=2.0, Warning=0.0, Critical=0.0",50.010013580322266
+951,Warning,0.92,False,False,False,[!] 'resource constraints'; [!] 'small delays',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.00643730163574
+952,Good,0.95,False,False,False,[+] 'client satisfaction'; [+] '9/10',"Weighted keyword analysis: Good=5.0, Warning=0.0, Critical=0.0",50.00572204589844
+953,Good,0.95,False,False,False,[+] 'progressing well',"Weighted keyword analysis: Good=2.5, Warning=0.0, Critical=0.0",50.00476837158203
+954,Good,0.95,False,False,False,[+] 'positive',"Weighted keyword analysis: Good=1.5, Warning=0.0, Critical=0.0",50.00500679016113
+955,Critical,0.95,False,False,False,[+] 'healthy'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02455711364746
+956,Critical,0.95,False,False,False,[X] 'major budget overrun'; [X] 'budget overrun'; [X] 'overrun',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=10.5",50.00905990600586
+957,Warning,0.92,False,False,False,[!] 'team capacity stretched'; [!] 'overtime required',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.00810623168945
+958,Good,0.95,False,False,False,[+] 'all milestones achieved'; [+] 'on time',"Weighted keyword analysis: Good=5.5, Warning=0.0, Critical=0.0",50.005245208740234
+959,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02288818359375
+960,Good,0.95,False,False,False,[+] 'optimally allocated'; [+] 'efficiency improved',"Weighted keyword analysis: Good=4.0, Warning=0.0, Critical=0.0",50.00953674316406
+961,Warning,0.92,False,False,False,[!] 'budget variance'; [!] 'corrective action',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.00643730163574
+962,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02527236938477
+963,Critical,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02694129943848
+964,Warning,0.92,False,False,False,[!] 'budget variance'; [!] 'corrective action',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.01025199890137
+965,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02932548522949
+966,Good,0.95,True,False,False,[+] 'team morale is high'; [+] 'exceeding expectations'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02908706665039
+967,Warning,0.92,False,False,False,[!] 'slightly below target',"Weighted keyword analysis: Good=0.0, Warning=2.0, Critical=0.0",50.00905990600586
+968,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02503395080566
+969,Critical,0.95,False,False,False,[X] 'critical resource resignation'; [X] 'resignation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=6.5",50.010013580322266
+970,Good,0.95,False,False,False,[+] 'excellent',"Weighted keyword analysis: Good=2.5, Warning=0.0, Critical=0.0",50.00929832458496
+971,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02455711364746
+972,Critical,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.0307559967041
+973,Warning,0.92,False,False,False,[!] 'resource constraints'; [!] 'small delays',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.00905990600586
+974,Good,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02574920654297
+975,Warning,0.95,False,False,False,[+] 'on track'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02932548522949
+976,Good,0.95,False,False,False,[+] 'on schedule'; [+] 'under budget',"Weighted keyword analysis: Good=6.0, Warning=0.0, Critical=0.0",50.00882148742676
+977,Warning,0.95,True,False,False,[!] 'budget is close'; [!] 'close to the limit'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02479553222656
+978,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02551078796387
+979,Warning,0.92,False,False,False,[!] 'slightly below target',"Weighted keyword analysis: Good=0.0, Warning=2.0, Critical=0.0",50.008583068847656
+980,Warning,0.7,False,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02527236938477
+981,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.03170967102051
+982,Critical,0.95,False,False,False,[X] 'critical resource resignation'; [X] 'resignation',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=6.5",50.00929832458496
+983,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02646446228027
+984,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02622604370117
+985,Warning,0.95,False,False,False,[+] 'client satisfaction'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.03194808959961
+986,Warning,0.92,False,False,False,[!] 'budget variance'; [!] 'corrective action',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.010013580322266
+987,Warning,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02741813659668
+988,Good,0.95,False,False,False,[+] 'all milestones achieved'; [+] 'on time',"Weighted keyword analysis: Good=5.5, Warning=0.0, Critical=0.0",50.010013580322266
+989,Warning,0.92,False,False,False,[!] 'team capacity stretched'; [!] 'overtime required',"Weighted keyword analysis: Good=0.0, Warning=4.0, Critical=0.0",50.00619888305664
+990,Good,0.7,True,False,True,No clear indicators found - using predefined status; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02646446228027
+991,Good,0.95,True,False,False,[+] 'on schedule'; [+] 'under budget'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02861022949219
+992,Good,0.95,False,False,False,[+] 'all milestones achieved'; [+] 'on time',"Weighted keyword analysis: Good=5.5, Warning=0.0, Critical=0.0",50.00953674316406
+993,Critical,0.95,False,False,False,[X] 'legal compliance issues',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=4.0",50.005483627319336
+994,Good,0.95,False,False,False,[+] 'no blockers'; [+] 'smooth execution',"Weighted keyword analysis: Good=5.0, Warning=0.0, Critical=0.0",50.00596046447754
+995,Good,0.95,False,False,False,[X] 'escalation'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02408027648926
+996,Warning,0.92,False,False,False,[!] 'budget is close',"Weighted keyword analysis: Good=0.0, Warning=2.5, Critical=0.0",50.00905990600586
+997,Critical,0.95,False,False,False,[X] 'failed acceptance testing'; [X] 'failed',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=7.0",50.006914138793945
+998,Good,0.95,False,False,False,[+] 'excellent',"Weighted keyword analysis: Good=2.5, Warning=0.0, Critical=0.0",50.00929832458496
+999,Good,0.95,False,False,False,[!] 'budget variance'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.06532669067383
+1000,Critical,0.95,False,False,False,[X] 'slipped significantly',"Weighted keyword analysis: Good=0.0, Warning=0.0, Critical=3.5",50.00905990600586

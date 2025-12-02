@@ -1,0 +1,1001 @@
+record_id,recommended_health,confidence,mismatched,requires_rag,requires_human_review,indicators,reasoning,processing_time_ms
+1,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02717971801758
+2,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02670288085938
+3,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02717971801758
+4,Critical,0.92,True,False,False,Detected: 'risk'; Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00810623168945
+5,Warning,0.85,False,False,False,Detected: 'delay'; Detected: 'risk',Mock analysis based on keyword matching. Detected status: Warning,50.00619888305664
+6,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02408027648926
+7,Critical,0.92,True,False,False,Detected: 'delay'; Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.008583068847656
+8,Good,0.9199999999999999,False,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02408027648926
+9,Critical,0.88,False,False,False,Detected: 'slipped',Mock analysis based on keyword matching. Detected status: Critical,50.00715255737305
+10,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02360343933105
+11,Good,0.88,False,False,False,Detected: 'progressing well',Mock analysis based on keyword matching. Detected status: Good,50.00739097595215
+12,Warning,0.85,False,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02312660217285
+13,Critical,0.95,False,False,False,Detected: 'failed',Mock analysis based on keyword matching. Detected status: Critical,50.00786781311035
+14,Critical,0.7,True,False,True,Ambiguity: Mixed positive and negative signals; No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02384185791016
+15,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02741813659668
+16,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02598762512207
+17,Critical,0.9199999999999999,False,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02813339233398
+18,Warning,0.85,True,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.00715255737305
+19,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02288818359375
+20,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02551078796387
+21,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02670288085938
+22,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02551078796387
+23,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02622604370117
+24,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02431869506836
+25,Warning,0.85,False,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.00715255737305
+26,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02264976501465
+27,Critical,0.92,True,False,False,Detected: 'risk'; Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00786781311035
+28,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02312660217285
+29,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02694129943848
+30,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.03552436828613
+31,Critical,0.9,True,False,False,Detected: 'overrun',Mock analysis based on keyword matching. Detected status: Critical,50.01239776611328
+32,Good,0.88,False,False,False,Detected: 'progressing well',Mock analysis based on keyword matching. Detected status: Good,50.005245208740234
+33,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02503395080566
+34,Good,0.95,False,False,False,Detected: 'excellent'; Detected: 'ahead of schedule',Mock analysis based on keyword matching. Detected status: Good,50.00762939453125
+35,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02551078796387
+36,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02574920654297
+37,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02717971801758
+38,Warning,0.85,False,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02837181091309
+39,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02837181091309
+40,Good,0.95,False,False,False,Detected: 'excellent'; Detected: 'ahead of schedule',Mock analysis based on keyword matching. Detected status: Good,50.00739097595215
+41,Good,0.88,False,False,False,Detected: 'progressing well',Mock analysis based on keyword matching. Detected status: Good,50.003814697265625
+42,Good,0.95,False,False,False,Detected: 'excellent'; Detected: 'ahead of schedule',Mock analysis based on keyword matching. Detected status: Good,50.00309944152832
+43,Critical,0.9,True,False,False,Detected: 'overrun',Mock analysis based on keyword matching. Detected status: Critical,50.00476837158203
+44,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02217292785645
+45,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02670288085938
+46,Critical,0.9,True,False,False,Detected: 'overrun',Mock analysis based on keyword matching. Detected status: Critical,50.00905990600586
+47,Warning,0.9199999999999999,True,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02503395080566
+48,Good,0.9199999999999999,False,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.03767013549805
+49,Warning,0.85,False,False,False,Detected: 'delay'; Detected: 'slight',Mock analysis based on keyword matching. Detected status: Warning,50.0309944152832
+50,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.03552436828613
+51,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.05173683166504
+52,Critical,0.7,False,False,True,Ambiguity: Mixed positive and negative signals; No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.04696846008301
+53,Warning,0.85,False,False,False,Detected: 'delay'; Detected: 'risk',Mock analysis based on keyword matching. Detected status: Warning,50.013113021850586
+54,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.03552436828613
+55,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.03910064697266
+56,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.03433227539062
+57,Critical,0.92,True,False,False,Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00810623168945
+58,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.03457069396973
+59,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.03194808959961
+60,Warning,0.85,True,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.00715255737305
+61,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02455711364746
+62,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.03314018249512
+63,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02789497375488
+64,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.0314712524414
+65,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.04100799560547
+66,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.03290176391602
+67,Good,0.88,False,False,False,Detected: 'progressing well',Mock analysis based on keyword matching. Detected status: Good,50.00739097595215
+68,Good,0.9199999999999999,False,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.03170967102051
+69,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.03623962402344
+70,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02694129943848
+71,Critical,0.92,True,False,False,Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00905990600586
+72,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02813339233398
+73,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.03600120544434
+74,Critical,0.7,False,False,True,Ambiguity: Mixed positive and negative signals; No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02813339233398
+75,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02813339233398
+76,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02765655517578
+77,Warning,0.85,False,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02789497375488
+78,Critical,0.7,True,False,True,Ambiguity: Mixed positive and negative signals; No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02932548522949
+79,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02789497375488
+80,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.0460147857666
+81,Warning,0.9199999999999999,False,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.04148483276367
+82,Critical,0.92,False,False,False,Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.01192092895508
+83,Critical,0.85,False,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02622604370117
+84,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.03600120544434
+85,Warning,0.85,True,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.01049041748047
+86,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02336502075195
+87,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02789497375488
+88,Critical,0.92,True,False,False,Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00786781311035
+89,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02408027648926
+90,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02694129943848
+91,Critical,0.92,True,False,False,Detected: 'delay'; Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.008344650268555
+92,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02503395080566
+93,Critical,0.98,True,False,False,Detected: 'risk'; Detected: 'cancellation',Mock analysis based on keyword matching. Detected status: Critical,50.00786781311035
+94,Critical,0.9199999999999999,False,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02336502075195
+95,Critical,0.9,False,False,False,Detected: 'overrun',Mock analysis based on keyword matching. Detected status: Critical,50.00739097595215
+96,Warning,0.85,True,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.003814697265625
+97,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02384185791016
+98,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02598762512207
+99,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02694129943848
+100,Good,0.7999999999999999,False,False,True,Detected: 'excellent'; Ambiguity: Mixed positive and negative signals; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02527236938477
+101,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02717971801758
+102,Good,0.95,False,False,False,Detected: 'excellent'; Detected: 'ahead of schedule',Mock analysis based on keyword matching. Detected status: Good,50.00810623168945
+103,Warning,0.9199999999999999,False,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02551078796387
+104,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02670288085938
+105,Warning,0.85,True,False,False,Detected: 'delay'; Detected: 'slight',Mock analysis based on keyword matching. Detected status: Warning,50.00762939453125
+106,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02312660217285
+107,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02670288085938
+108,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02598762512207
+109,Good,0.88,False,False,False,Detected: 'progressing well',Mock analysis based on keyword matching. Detected status: Good,50.00762939453125
+110,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02336502075195
+111,Good,0.7999999999999999,False,False,True,Detected: 'excellent'; Ambiguity: Mixed positive and negative signals; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02598762512207
+112,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02717971801758
+113,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02670288085938
+114,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02622604370117
+115,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02503395080566
+116,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02598762512207
+117,Good,0.9199999999999999,True,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02694129943848
+118,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02741813659668
+119,Warning,0.85,False,False,False,Detected: 'delay'; Detected: 'slight',Mock analysis based on keyword matching. Detected status: Warning,50.00786781311035
+120,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02384185791016
+121,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02813339233398
+122,Good,0.9199999999999999,True,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02908706665039
+123,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02694129943848
+124,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02717971801758
+125,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02646446228027
+126,Critical,0.88,False,False,False,Detected: 'slipped',Mock analysis based on keyword matching. Detected status: Critical,50.00715255737305
+127,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02264976501465
+128,Critical,0.92,True,False,False,Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00786781311035
+129,Critical,0.88,False,False,False,Detected: 'slipped',Mock analysis based on keyword matching. Detected status: Critical,50.003814697265625
+130,Warning,0.85,False,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02336502075195
+131,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02670288085938
+132,Critical,0.92,True,False,False,Detected: 'delay'; Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00882148742676
+133,Good,0.7999999999999999,False,False,True,Detected: 'excellent'; Ambiguity: Mixed positive and negative signals; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02384185791016
+134,Warning,0.85,True,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02741813659668
+135,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02765655517578
+136,Critical,0.85,True,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02646446228027
+137,Warning,0.9199999999999999,False,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02670288085938
+138,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02574920654297
+139,Critical,0.98,False,False,False,Detected: 'risk'; Detected: 'cancellation',Mock analysis based on keyword matching. Detected status: Critical,50.00762939453125
+140,Critical,0.85,False,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02264976501465
+141,Good,0.95,True,False,False,Detected: 'excellent'; Detected: 'critical',Mock analysis based on keyword matching. Detected status: Good,50.00882148742676
+142,Good,0.9199999999999999,True,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02622604370117
+143,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02741813659668
+144,Critical,0.88,False,False,False,Detected: 'slipped',Mock analysis based on keyword matching. Detected status: Critical,50.00715255737305
+145,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02384185791016
+146,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02884864807129
+147,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.10180473327637
+148,Critical,0.98,False,False,False,Detected: 'risk'; Detected: 'cancellation',Mock analysis based on keyword matching. Detected status: Critical,50.02121925354004
+149,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02670288085938
+150,Warning,0.85,False,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.006675720214844
+151,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02241134643555
+152,Good,0.7999999999999999,True,False,True,Detected: 'excellent'; Ambiguity: Mixed positive and negative signals; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02551078796387
+153,Critical,0.9199999999999999,True,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02861022949219
+154,Critical,0.98,False,False,False,Detected: 'risk'; Detected: 'cancellation',Mock analysis based on keyword matching. Detected status: Critical,50.00762939453125
+155,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02312660217285
+156,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02622604370117
+157,Warning,0.85,False,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.006914138793945
+158,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02288818359375
+159,Critical,0.92,False,False,False,Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00762939453125
+160,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02384185791016
+161,Critical,0.98,False,False,False,Detected: 'risk'; Detected: 'cancellation',Mock analysis based on keyword matching. Detected status: Critical,50.00810623168945
+162,Good,0.95,False,False,False,Detected: 'excellent'; Detected: 'critical',Mock analysis based on keyword matching. Detected status: Good,50.00596046447754
+163,Critical,0.95,False,False,False,Detected: 'failed',Mock analysis based on keyword matching. Detected status: Critical,50.00476837158203
+164,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02193450927734
+165,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02622604370117
+166,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02551078796387
+167,Critical,0.98,True,False,False,Detected: 'risk'; Detected: 'cancellation',Mock analysis based on keyword matching. Detected status: Critical,50.00762939453125
+168,Warning,0.85,False,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02312660217285
+169,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02789497375488
+170,Critical,0.85,False,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02741813659668
+171,Warning,0.85,False,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02622604370117
+172,Critical,0.98,True,False,False,Detected: 'risk'; Detected: 'cancellation',Mock analysis based on keyword matching. Detected status: Critical,50.00739097595215
+173,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02217292785645
+174,Warning,0.88,False,False,False,Detected: 'slight'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02479553222656
+175,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02598762512207
+176,Good,0.88,False,False,False,Detected: 'progressing well',Mock analysis based on keyword matching. Detected status: Good,50.00715255737305
+177,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02408027648926
+178,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02694129943848
+179,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02646446228027
+180,Critical,0.7,True,False,True,Ambiguity: Mixed positive and negative signals; No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02646446228027
+181,Warning,0.85,True,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.006675720214844
+182,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02241134643555
+183,Warning,0.85,False,False,False,Detected: 'delay'; Detected: 'slight',Mock analysis based on keyword matching. Detected status: Warning,50.00715255737305
+184,Warning,0.88,False,False,False,Detected: 'slight'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02288818359375
+185,Critical,0.9,False,False,False,Detected: 'overrun',Mock analysis based on keyword matching. Detected status: Critical,50.00762939453125
+186,Critical,0.92,True,False,False,Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00619888305664
+187,Good,0.7999999999999999,True,False,True,Detected: 'excellent'; Ambiguity: Mixed positive and negative signals; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02217292785645
+188,Good,0.95,False,False,False,Detected: 'excellent'; Detected: 'ahead of schedule',Mock analysis based on keyword matching. Detected status: Good,50.00762939453125
+189,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02646446228027
+190,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02622604370117
+191,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02431869506836
+192,Critical,0.85,False,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02694129943848
+193,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02789497375488
+194,Good,0.92,True,False,False,Detected: 'on schedule',Mock analysis based on keyword matching. Detected status: Good,50.00715255737305
+195,Warning,0.85,True,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.00476837158203
+196,Critical,0.85,False,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02264976501465
+197,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02694129943848
+198,Critical,0.92,True,False,False,Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00715255737305
+199,Good,0.95,False,False,False,Detected: 'excellent'; Detected: 'ahead of schedule',Mock analysis based on keyword matching. Detected status: Good,50.00452995300293
+200,Critical,0.92,True,False,False,Detected: 'risk'; Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00333786010742
+201,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02336502075195
+202,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02694129943848
+203,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02789497375488
+204,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02574920654297
+205,Warning,0.85,True,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02646446228027
+206,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02622604370117
+207,Good,0.95,False,False,False,Detected: 'excellent'; Detected: 'ahead of schedule',Mock analysis based on keyword matching. Detected status: Good,50.00762939453125
+208,Good,0.95,True,False,False,Detected: 'excellent'; Detected: 'ahead of schedule',Mock analysis based on keyword matching. Detected status: Good,50.00286102294922
+209,Warning,0.85,False,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.00333786010742
+210,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02193450927734
+211,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02622604370117
+212,Critical,0.85,True,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02574920654297
+213,Critical,0.9199999999999999,False,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.0295639038086
+214,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02646446228027
+215,Warning,0.85,False,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.00786781311035
+216,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02360343933105
+217,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02670288085938
+218,Good,0.95,True,False,False,Detected: 'excellent'; Detected: 'critical',Mock analysis based on keyword matching. Detected status: Good,50.00905990600586
+219,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02527236938477
+220,Critical,0.92,False,False,False,Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.008344650268555
+221,Good,0.88,False,False,False,Detected: 'progressing well',Mock analysis based on keyword matching. Detected status: Good,50.00405311584473
+222,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02336502075195
+223,Warning,0.9199999999999999,False,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.0302791595459
+224,Warning,0.9199999999999999,False,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02741813659668
+225,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02646446228027
+226,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02622604370117
+227,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02884864807129
+228,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02598762512207
+229,Warning,0.85,True,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.006914138793945
+230,Good,0.95,False,False,False,Detected: 'excellent'; Detected: 'ahead of schedule',Mock analysis based on keyword matching. Detected status: Good,50.00429153442383
+231,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02121925354004
+232,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02694129943848
+233,Critical,0.9,True,False,False,Detected: 'overrun',Mock analysis based on keyword matching. Detected status: Critical,50.00905990600586
+234,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02169609069824
+235,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02646446228027
+236,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02694129943848
+237,Warning,0.85,True,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.006914138793945
+238,Good,0.92,True,False,False,Detected: 'on schedule'; Detected: 'under budget',Mock analysis based on keyword matching. Detected status: Good,50.003814697265625
+239,Warning,0.85,False,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.00309944152832
+240,Warning,0.85,True,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.00405311584473
+241,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02217292785645
+242,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02503395080566
+243,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02717971801758
+244,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02503395080566
+245,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02527236938477
+246,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02503395080566
+247,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02694129943848
+248,Critical,0.98,False,False,False,Detected: 'risk'; Detected: 'cancellation',Mock analysis based on keyword matching. Detected status: Critical,50.00762939453125
+249,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02312660217285
+250,Critical,0.7999999999999999,False,False,True,Detected: 'on schedule'; Ambiguity: Mixed positive and negative signals; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02908706665039
+251,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02551078796387
+252,Critical,0.95,False,False,False,Detected: 'failed',Mock analysis based on keyword matching. Detected status: Critical,50.00786781311035
+253,Critical,0.88,False,False,False,Detected: 'slipped',Mock analysis based on keyword matching. Detected status: Critical,50.00405311584473
+254,Warning,0.85,False,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02384185791016
+255,Critical,0.92,True,False,False,Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00953674316406
+256,Warning,0.85,True,False,False,Detected: 'delay'; Detected: 'risk',Mock analysis based on keyword matching. Detected status: Warning,50.00572204589844
+257,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02217292785645
+258,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02551078796387
+259,Critical,0.85,False,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02551078796387
+260,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02646446228027
+261,Critical,0.9199999999999999,False,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02741813659668
+262,Critical,0.92,True,False,False,Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.009775161743164
+263,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02241134643555
+264,Warning,0.85,False,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02646446228027
+265,Warning,0.85,False,False,False,Detected: 'delay'; Detected: 'slight',Mock analysis based on keyword matching. Detected status: Warning,50.00786781311035
+266,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02503395080566
+267,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02622604370117
+268,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02694129943848
+269,Critical,0.7999999999999999,True,False,True,Detected: 'on schedule'; Ambiguity: Mixed positive and negative signals; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02884864807129
+270,Warning,0.85,True,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.00786781311035
+271,Critical,0.92,False,False,False,Detected: 'delay'; Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00500679016113
+272,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02264976501465
+273,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02717971801758
+274,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02527236938477
+275,Good,0.7999999999999999,True,False,True,Detected: 'excellent'; Ambiguity: Mixed positive and negative signals; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02622604370117
+276,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02837181091309
+277,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02527236938477
+278,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02455711364746
+279,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02670288085938
+280,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02503395080566
+281,Warning,0.85,False,False,False,Detected: 'delay'; Detected: 'slight',Mock analysis based on keyword matching. Detected status: Warning,50.006914138793945
+282,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02217292785645
+283,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02622604370117
+284,Warning,0.9199999999999999,True,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02717971801758
+285,Critical,0.85,False,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02670288085938
+286,Warning,0.85,False,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.00810623168945
+287,Critical,0.98,False,False,False,Detected: 'risk'; Detected: 'cancellation',Mock analysis based on keyword matching. Detected status: Critical,50.00429153442383
+288,Critical,0.7999999999999999,False,False,True,Detected: 'on schedule'; Ambiguity: Mixed positive and negative signals; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02503395080566
+289,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02598762512207
+290,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02717971801758
+291,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02479553222656
+292,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02646446228027
+293,Good,0.95,True,False,False,Detected: 'excellent'; Detected: 'critical',Mock analysis based on keyword matching. Detected status: Good,50.00953674316406
+294,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02408027648926
+295,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02765655517578
+296,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02551078796387
+297,Critical,0.85,True,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.0309944152832
+298,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02646446228027
+299,Critical,0.9,False,False,False,Detected: 'overrun',Mock analysis based on keyword matching. Detected status: Critical,50.00739097595215
+300,Good,0.95,False,False,False,Detected: 'excellent'; Detected: 'ahead of schedule',Mock analysis based on keyword matching. Detected status: Good,50.00476837158203
+301,Critical,0.92,True,False,False,Detected: 'risk'; Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00357627868652
+302,Warning,0.85,False,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02622604370117
+303,Critical,0.98,False,False,False,Detected: 'risk'; Detected: 'cancellation',Mock analysis based on keyword matching. Detected status: Critical,50.00929832458496
+304,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02193450927734
+305,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02574920654297
+306,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02551078796387
+307,Critical,0.92,False,False,False,Detected: 'delay'; Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00905990600586
+308,Critical,0.9199999999999999,True,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02527236938477
+309,Critical,0.92,True,False,False,Detected: 'risk'; Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00762939453125
+310,Critical,0.85,True,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02169609069824
+311,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02670288085938
+312,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02551078796387
+313,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02431869506836
+314,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02574920654297
+315,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02503395080566
+316,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02717971801758
+317,Good,0.92,True,False,False,Detected: 'on schedule',Mock analysis based on keyword matching. Detected status: Good,50.00762939453125
+318,Critical,0.95,False,False,False,Detected: 'failed',Mock analysis based on keyword matching. Detected status: Critical,50.00429153442383
+319,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02288818359375
+320,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02551078796387
+321,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02813339233398
+322,Critical,0.92,True,False,False,Detected: 'delay'; Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00953674316406
+323,Warning,0.85,True,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.00500679016113
+324,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02264976501465
+325,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02574920654297
+326,Warning,0.85,False,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02622604370117
+327,Good,0.95,True,False,False,Detected: 'excellent'; Detected: 'ahead of schedule',Mock analysis based on keyword matching. Detected status: Good,50.008344650268555
+328,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02169609069824
+329,Warning,0.88,False,False,False,Detected: 'slight'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02527236938477
+330,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02598762512207
+331,Warning,0.85,False,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.00715255737305
+332,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02408027648926
+333,Critical,0.92,False,False,False,Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00786781311035
+334,Warning,0.88,False,False,False,Detected: 'slight'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02288818359375
+335,Good,0.95,True,False,False,Detected: 'excellent'; Detected: 'critical',Mock analysis based on keyword matching. Detected status: Good,50.00905990600586
+336,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02217292785645
+337,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02670288085938
+338,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02717971801758
+339,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02741813659668
+340,Critical,0.98,False,False,False,Detected: 'risk'; Detected: 'cancellation',Mock analysis based on keyword matching. Detected status: Critical,50.00739097595215
+341,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02145767211914
+342,Critical,0.92,True,False,False,Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00953674316406
+343,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02336502075195
+344,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.0298023223877
+345,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02622604370117
+346,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02646446228027
+347,Warning,0.9199999999999999,False,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02717971801758
+348,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02741813659668
+349,Warning,0.9199999999999999,True,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02765655517578
+350,Critical,0.7999999999999999,True,False,True,Detected: 'on schedule'; Ambiguity: Mixed positive and negative signals; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02861022949219
+351,Warning,0.88,False,False,False,Detected: 'slight'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02717971801758
+352,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02574920654297
+353,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02503395080566
+354,Warning,0.85,False,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.00739097595215
+355,Warning,0.85,True,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.00262260437012
+356,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02479553222656
+357,Warning,0.85,True,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.00786781311035
+358,Critical,0.98,False,False,False,Detected: 'risk'; Detected: 'cancellation',Mock analysis based on keyword matching. Detected status: Critical,50.003814697265625
+359,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02241134643555
+360,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02694129943848
+361,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.03814697265625
+362,Critical,0.92,True,False,False,Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00905990600586
+363,Warning,0.85,False,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.00333786010742
+364,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02431869506836
+365,Critical,0.88,False,False,False,Detected: 'slipped',Mock analysis based on keyword matching. Detected status: Critical,50.022172927856445
+366,Warning,0.85,False,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.00429153442383
+367,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02145767211914
+368,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02551078796387
+369,Critical,0.92,False,False,False,Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00762939453125
+370,Critical,0.85,True,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02193450927734
+371,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02741813659668
+372,Good,0.92,False,False,False,Detected: 'on schedule',Mock analysis based on keyword matching. Detected status: Good,50.00715255737305
+373,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02264976501465
+374,Critical,0.95,False,False,False,Detected: 'failed',Mock analysis based on keyword matching. Detected status: Critical,50.00905990600586
+375,Critical,0.88,False,False,False,Detected: 'slipped',Mock analysis based on keyword matching. Detected status: Critical,50.00333786010742
+376,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02145767211914
+377,Warning,0.85,False,False,False,Detected: 'delay'; Detected: 'slight',Mock analysis based on keyword matching. Detected status: Warning,50.00762939453125
+378,Good,0.88,False,False,False,Detected: 'progressing well',Mock analysis based on keyword matching. Detected status: Good,50.003814697265625
+379,Warning,0.88,False,False,False,Detected: 'slight'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02312660217285
+380,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02574920654297
+381,Warning,0.85,False,False,False,Detected: 'delay'; Detected: 'slight',Mock analysis based on keyword matching. Detected status: Warning,50.00739097595215
+382,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02217292785645
+383,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02670288085938
+384,Good,0.95,True,False,False,Detected: 'excellent'; Detected: 'critical',Mock analysis based on keyword matching. Detected status: Good,50.009775161743164
+385,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02312660217285
+386,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02551078796387
+387,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02789497375488
+388,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02622604370117
+389,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02574920654297
+390,Critical,0.9,True,False,False,Detected: 'overrun',Mock analysis based on keyword matching. Detected status: Critical,50.00882148742676
+391,Critical,0.92,True,False,False,Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.005483627319336
+392,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02169609069824
+393,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02694129943848
+394,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.03528594970703
+395,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02741813659668
+396,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02837181091309
+397,Good,0.88,True,False,False,Detected: 'progressing well',Mock analysis based on keyword matching. Detected status: Good,50.00762939453125
+398,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02694129943848
+399,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02598762512207
+400,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02717971801758
+401,Critical,0.92,False,False,False,Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00786781311035
+402,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02121925354004
+403,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02431869506836
+404,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02574920654297
+405,Warning,0.85,False,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.006914138793945
+406,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02360343933105
+407,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02646446228027
+408,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02670288085938
+409,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02765655517578
+410,Good,0.88,True,False,False,Detected: 'progressing well',Mock analysis based on keyword matching. Detected status: Good,50.006914138793945
+411,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02288818359375
+412,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02717971801758
+413,Warning,0.9199999999999999,False,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02765655517578
+414,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02670288085938
+415,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02551078796387
+416,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02670288085938
+417,Critical,0.9,True,False,False,Detected: 'overrun',Mock analysis based on keyword matching. Detected status: Critical,50.00643730163574
+418,Critical,0.9,True,False,False,Detected: 'overrun',Mock analysis based on keyword matching. Detected status: Critical,50.00286102294922
+419,Critical,0.7999999999999999,True,False,True,Detected: 'on schedule'; Ambiguity: Mixed positive and negative signals; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02455711364746
+420,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02574920654297
+421,Critical,0.92,False,False,False,Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00739097595215
+422,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02288818359375
+423,Critical,0.92,True,False,False,Detected: 'risk'; Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00715255737305
+424,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02217292785645
+425,Critical,0.9199999999999999,False,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02932548522949
+426,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02694129943848
+427,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02717971801758
+428,Critical,0.7999999999999999,False,False,True,Detected: 'on schedule'; Ambiguity: Mixed positive and negative signals; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02932548522949
+429,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02574920654297
+430,Warning,0.85,True,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.00739097595215
+431,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02241134643555
+432,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02646446228027
+433,Warning,0.85,False,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02598762512207
+434,Critical,0.92,False,False,False,Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.009775161743164
+435,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02336502075195
+436,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02551078796387
+437,Critical,0.7,True,False,True,Ambiguity: Mixed positive and negative signals; No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02670288085938
+438,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02741813659668
+439,Good,0.95,False,False,False,Detected: 'excellent'; Detected: 'ahead of schedule',Mock analysis based on keyword matching. Detected status: Good,50.00786781311035
+440,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02312660217285
+441,Critical,0.7,True,False,True,Ambiguity: Mixed positive and negative signals; No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02789497375488
+442,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02574920654297
+443,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02789497375488
+444,Critical,0.7999999999999999,False,False,True,Detected: 'on schedule'; Ambiguity: Mixed positive and negative signals; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02813339233398
+445,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02574920654297
+446,Critical,0.88,False,False,False,Detected: 'slipped',Mock analysis based on keyword matching. Detected status: Critical,50.00786781311035
+447,Critical,0.95,False,False,False,Detected: 'failed',Mock analysis based on keyword matching. Detected status: Critical,50.00452995300293
+448,Good,0.9199999999999999,True,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02479553222656
+449,Warning,0.85,False,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.00715255737305
+450,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02169609069824
+451,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.0300407409668
+452,Warning,0.85,True,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02622604370117
+453,Warning,0.85,False,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.008344650268555
+454,Critical,0.88,False,False,False,Detected: 'slipped',Mock analysis based on keyword matching. Detected status: Critical,50.00357627868652
+455,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02455711364746
+456,Good,0.88,False,False,False,Detected: 'progressing well',Mock analysis based on keyword matching. Detected status: Good,50.00762939453125
+457,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02646446228027
+458,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02741813659668
+459,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02861022949219
+460,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.03623962402344
+461,Critical,0.98,False,False,False,Detected: 'risk'; Detected: 'cancellation',Mock analysis based on keyword matching. Detected status: Critical,50.01072883605957
+462,Critical,0.9,True,False,False,Detected: 'overrun',Mock analysis based on keyword matching. Detected status: Critical,50.008583068847656
+463,Warning,0.85,True,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02622604370117
+464,Warning,0.9199999999999999,True,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.0312328338623
+465,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02837181091309
+466,Critical,0.95,False,False,False,Detected: 'failed',Mock analysis based on keyword matching. Detected status: Critical,50.00810623168945
+467,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02288818359375
+468,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02479553222656
+469,Critical,0.9,False,False,False,Detected: 'overrun',Mock analysis based on keyword matching. Detected status: Critical,50.00715255737305
+470,Critical,0.92,True,False,False,Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.005483627319336
+471,Critical,0.9199999999999999,True,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02217292785645
+472,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02598762512207
+473,Critical,0.85,False,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02670288085938
+474,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02574920654297
+475,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02646446228027
+476,Warning,0.88,False,False,False,Detected: 'slight'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02455711364746
+477,Critical,0.85,True,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02598762512207
+478,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02646446228027
+479,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02741813659668
+480,Critical,0.95,True,False,False,Detected: 'failed',Mock analysis based on keyword matching. Detected status: Critical,50.00762939453125
+481,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02145767211914
+482,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02670288085938
+483,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02622604370117
+484,Critical,0.95,False,False,False,Detected: 'failed',Mock analysis based on keyword matching. Detected status: Critical,50.00739097595215
+485,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02336502075195
+486,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02646446228027
+487,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02670288085938
+488,Good,0.95,False,False,False,Detected: 'excellent'; Detected: 'ahead of schedule',Mock analysis based on keyword matching. Detected status: Good,50.00810623168945
+489,Warning,0.88,False,False,False,Detected: 'slight'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02241134643555
+490,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02670288085938
+491,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.04267692565918
+492,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02765655517578
+493,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02479553222656
+494,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02717971801758
+495,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02789497375488
+496,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02670288085938
+497,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02551078796387
+498,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02574920654297
+499,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02574920654297
+500,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02908706665039
+501,Good,0.7999999999999999,False,False,True,Detected: 'excellent'; Ambiguity: Mixed positive and negative signals; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02717971801758
+502,Warning,0.85,False,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02765655517578
+503,Good,0.88,False,False,False,Detected: 'progressing well',Mock analysis based on keyword matching. Detected status: Good,50.00739097595215
+504,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02241134643555
+505,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.0314712524414
+506,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02765655517578
+507,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02551078796387
+508,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02503395080566
+509,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02837181091309
+510,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02527236938477
+511,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02765655517578
+512,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02598762512207
+513,Critical,0.9199999999999999,False,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02622604370117
+514,Critical,0.7999999999999999,True,False,True,Detected: 'on schedule'; Ambiguity: Mixed positive and negative signals; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02765655517578
+515,Good,0.9199999999999999,True,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02813339233398
+516,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02670288085938
+517,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02408027648926
+518,Critical,0.9,True,False,False,Detected: 'overrun',Mock analysis based on keyword matching. Detected status: Critical,50.00715255737305
+519,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02217292785645
+520,Warning,0.85,False,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.006914138793945
+521,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02217292785645
+522,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02741813659668
+523,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02741813659668
+524,Critical,0.9,True,False,False,Detected: 'overrun',Mock analysis based on keyword matching. Detected status: Critical,50.00929832458496
+525,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02551078796387
+526,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02694129943848
+527,Warning,0.85,True,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.0307559967041
+528,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.03194808959961
+529,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02932548522949
+530,Critical,0.9199999999999999,True,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.03314018249512
+531,Critical,0.92,False,False,False,Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.01025199890137
+532,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.03814697265625
+533,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.03266334533691
+534,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02741813659668
+535,Warning,0.85,False,False,False,Detected: 'delay'; Detected: 'risk',Mock analysis based on keyword matching. Detected status: Warning,50.00882148742676
+536,Critical,0.9199999999999999,True,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.03576278686523
+537,Critical,0.9,False,False,False,Detected: 'overrun',Mock analysis based on keyword matching. Detected status: Critical,50.01072883605957
+538,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.10347366333008
+539,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.03695487976074
+540,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02837181091309
+541,Good,0.88,False,False,False,Detected: 'progressing well',Mock analysis based on keyword matching. Detected status: Good,50.00739097595215
+542,Critical,0.92,True,False,False,Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00429153442383
+543,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02479553222656
+544,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02837181091309
+545,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02694129943848
+546,Warning,0.85,False,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.006914138793945
+547,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02455711364746
+548,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02694129943848
+549,Warning,0.85,False,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.00739097595215
+550,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02217292785645
+551,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02622604370117
+552,Critical,0.88,False,False,False,Detected: 'slipped',Mock analysis based on keyword matching. Detected status: Critical,50.00715255737305
+553,Critical,0.9199999999999999,False,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02861022949219
+554,Critical,0.98,False,False,False,Detected: 'risk'; Detected: 'cancellation',Mock analysis based on keyword matching. Detected status: Critical,50.008583068847656
+555,Good,0.95,False,False,False,Detected: 'excellent'; Detected: 'ahead of schedule',Mock analysis based on keyword matching. Detected status: Good,50.00429153442383
+556,Good,0.95,False,False,False,Detected: 'excellent'; Detected: 'ahead of schedule',Mock analysis based on keyword matching. Detected status: Good,50.00309944152832
+557,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02264976501465
+558,Warning,0.85,False,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02813339233398
+559,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02622604370117
+560,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02813339233398
+561,Critical,0.7999999999999999,True,False,True,Detected: 'on schedule'; Ambiguity: Mixed positive and negative signals; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02861022949219
+562,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02574920654297
+563,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02551078796387
+564,Good,0.92,False,False,False,Detected: 'on schedule'; Detected: 'under budget',Mock analysis based on keyword matching. Detected status: Good,50.00739097595215
+565,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02741813659668
+566,Critical,0.7,True,False,True,Ambiguity: Mixed positive and negative signals; No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02813339233398
+567,Warning,0.85,False,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.008583068847656
+568,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02288818359375
+569,Critical,0.9,True,False,False,Detected: 'overrun',Mock analysis based on keyword matching. Detected status: Critical,50.00905990600586
+570,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02336502075195
+571,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02646446228027
+572,Critical,0.85,True,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02574920654297
+573,Critical,0.88,False,False,False,Detected: 'slipped',Mock analysis based on keyword matching. Detected status: Critical,50.00786781311035
+574,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02264976501465
+575,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02646446228027
+576,Good,0.95,False,False,False,Detected: 'excellent'; Detected: 'ahead of schedule',Mock analysis based on keyword matching. Detected status: Good,50.00786781311035
+577,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02264976501465
+578,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02717971801758
+579,Critical,0.95,False,False,False,Detected: 'failed',Mock analysis based on keyword matching. Detected status: Critical,50.008344650268555
+580,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02455711364746
+581,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02670288085938
+582,Good,0.92,False,False,False,Detected: 'on schedule'; Detected: 'under budget',Mock analysis based on keyword matching. Detected status: Good,50.006914138793945
+583,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02312660217285
+584,Good,0.92,False,False,False,Detected: 'on schedule'; Detected: 'under budget',Mock analysis based on keyword matching. Detected status: Good,50.00762939453125
+585,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02193450927734
+586,Warning,0.85,False,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.008344650268555
+587,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02384185791016
+588,Critical,0.92,True,False,False,Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00905990600586
+589,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02264976501465
+590,Critical,0.92,True,False,False,Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.009775161743164
+591,Good,0.92,False,False,False,Detected: 'on schedule'; Detected: 'under budget',Mock analysis based on keyword matching. Detected status: Good,50.003814697265625
+592,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02312660217285
+593,Critical,0.9,True,False,False,Detected: 'overrun',Mock analysis based on keyword matching. Detected status: Critical,50.00929832458496
+594,Critical,0.7,False,False,True,Ambiguity: Mixed positive and negative signals; No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02169609069824
+595,Good,0.92,False,False,False,Detected: 'on schedule'; Detected: 'under budget',Mock analysis based on keyword matching. Detected status: Good,50.006914138793945
+596,Warning,0.85,False,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02551078796387
+597,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02670288085938
+598,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02670288085938
+599,Good,0.7999999999999999,True,False,True,Detected: 'excellent'; Ambiguity: Mixed positive and negative signals; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02694129943848
+600,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02717971801758
+601,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02574920654297
+602,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02646446228027
+603,Good,0.95,False,False,False,Detected: 'excellent'; Detected: 'critical',Mock analysis based on keyword matching. Detected status: Good,50.00882148742676
+604,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02264976501465
+605,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02479553222656
+606,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02646446228027
+607,Good,0.88,False,False,False,Detected: 'progressing well',Mock analysis based on keyword matching. Detected status: Good,50.00739097595215
+608,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02217292785645
+609,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02670288085938
+610,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02455711364746
+611,Critical,0.9199999999999999,True,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02717971801758
+612,Critical,0.98,False,False,False,Detected: 'risk'; Detected: 'cancellation',Mock analysis based on keyword matching. Detected status: Critical,50.00739097595215
+613,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02384185791016
+614,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02837181091309
+615,Warning,0.9199999999999999,True,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02717971801758
+616,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02717971801758
+617,Warning,0.85,False,False,False,Detected: 'delay'; Detected: 'risk',Mock analysis based on keyword matching. Detected status: Warning,50.008583068847656
+618,Warning,0.85,True,False,False,Detected: 'delay'; Detected: 'risk',Mock analysis based on keyword matching. Detected status: Warning,50.003814697265625
+619,Critical,0.92,False,False,False,Detected: 'risk'; Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00357627868652
+620,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02264976501465
+621,Good,0.95,False,False,False,Detected: 'excellent'; Detected: 'critical',Mock analysis based on keyword matching. Detected status: Good,50.00882148742676
+622,Warning,0.85,True,False,False,Detected: 'delay'; Detected: 'slight',Mock analysis based on keyword matching. Detected status: Warning,50.003814697265625
+623,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02288818359375
+624,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02837181091309
+625,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02670288085938
+626,Warning,0.85,True,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.00715255737305
+627,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02408027648926
+628,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.0298023223877
+629,Critical,0.92,False,False,False,Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00786781311035
+630,Warning,0.85,True,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02455711364746
+631,Critical,0.85,True,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.0298023223877
+632,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02694129943848
+633,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.0448226928711
+634,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02646446228027
+635,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02622604370117
+636,Critical,0.9199999999999999,False,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02884864807129
+637,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02622604370117
+638,Critical,0.98,False,False,False,Detected: 'cancellation',Mock analysis based on keyword matching. Detected status: Critical,50.00762939453125
+639,Warning,0.85,False,False,False,Detected: 'delay'; Detected: 'slight',Mock analysis based on keyword matching. Detected status: Warning,50.00429153442383
+640,Critical,0.98,False,False,False,Detected: 'risk'; Detected: 'cancellation',Mock analysis based on keyword matching. Detected status: Critical,50.00333786010742
+641,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02169609069824
+642,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02622604370117
+643,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02551078796387
+644,Critical,0.85,False,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02551078796387
+645,Critical,0.98,True,False,False,Detected: 'risk'; Detected: 'cancellation',Mock analysis based on keyword matching. Detected status: Critical,50.00786781311035
+646,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02264976501465
+647,Critical,0.7,True,False,True,Ambiguity: Mixed positive and negative signals; No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02741813659668
+648,Critical,0.92,True,False,False,Detected: 'delay'; Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00810623168945
+649,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02336502075195
+650,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02598762512207
+651,Warning,0.85,False,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.00786781311035
+652,Critical,0.92,True,False,False,Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00596046447754
+653,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02193450927734
+654,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02837181091309
+655,Warning,0.85,False,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02789497375488
+656,Critical,0.9,False,False,False,Detected: 'overrun',Mock analysis based on keyword matching. Detected status: Critical,50.00786781311035
+657,Warning,0.85,False,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02384185791016
+658,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02574920654297
+659,Critical,0.98,False,False,False,Detected: 'risk'; Detected: 'cancellation',Mock analysis based on keyword matching. Detected status: Critical,50.00739097595215
+660,Warning,0.85,True,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.00357627868652
+661,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02312660217285
+662,Warning,0.85,False,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.00739097595215
+663,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02193450927734
+664,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02646446228027
+665,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02861022949219
+666,Critical,0.92,False,False,False,Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00953674316406
+667,Critical,0.98,False,False,False,Detected: 'risk'; Detected: 'cancellation',Mock analysis based on keyword matching. Detected status: Critical,50.003814697265625
+668,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02312660217285
+669,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02598762512207
+670,Good,0.88,False,False,False,Detected: 'progressing well',Mock analysis based on keyword matching. Detected status: Good,50.00739097595215
+671,Warning,0.85,True,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02551078796387
+672,Critical,0.98,False,False,False,Detected: 'risk'; Detected: 'cancellation',Mock analysis based on keyword matching. Detected status: Critical,50.00786781311035
+673,Warning,0.85,True,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.003814697265625
+674,Critical,0.92,True,False,False,Detected: 'risk'; Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00357627868652
+675,Good,0.92,False,False,False,Detected: 'on schedule'; Detected: 'under budget',Mock analysis based on keyword matching. Detected status: Good,50.003814697265625
+676,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02551078796387
+677,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02622604370117
+678,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02646446228027
+679,Critical,0.9,False,False,False,Detected: 'overrun',Mock analysis based on keyword matching. Detected status: Critical,50.00762939453125
+680,Good,0.95,False,False,False,Detected: 'excellent'; Detected: 'ahead of schedule',Mock analysis based on keyword matching. Detected status: Good,50.00429153442383
+681,Good,0.95,False,False,False,Detected: 'excellent'; Detected: 'ahead of schedule',Mock analysis based on keyword matching. Detected status: Good,50.00262260437012
+682,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02288818359375
+683,Good,0.95,False,False,False,Detected: 'excellent'; Detected: 'ahead of schedule',Mock analysis based on keyword matching. Detected status: Good,50.00786781311035
+684,Critical,0.9,False,False,False,Detected: 'overrun',Mock analysis based on keyword matching. Detected status: Critical,50.00357627868652
+685,Critical,0.95,False,False,False,Detected: 'failed',Mock analysis based on keyword matching. Detected status: Critical,50.00357627868652
+686,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02384185791016
+687,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.0298023223877
+688,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02694129943848
+689,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02622604370117
+690,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02813339233398
+691,Critical,0.7,False,False,True,Ambiguity: Mixed positive and negative signals; No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02717971801758
+692,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02670288085938
+693,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02670288085938
+694,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02598762512207
+695,Critical,0.85,False,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02670288085938
+696,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02574920654297
+697,Warning,0.85,True,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02646446228027
+698,Critical,0.95,True,False,False,Detected: 'failed',Mock analysis based on keyword matching. Detected status: Critical,50.00810623168945
+699,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02431869506836
+700,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02646446228027
+701,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02622604370117
+702,Warning,0.85,False,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.00715255737305
+703,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02241134643555
+704,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02622604370117
+705,Warning,0.85,True,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02622604370117
+706,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02527236938477
+707,Good,0.9199999999999999,True,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02789497375488
+708,Critical,0.98,False,False,False,Detected: 'risk'; Detected: 'cancellation',Mock analysis based on keyword matching. Detected status: Critical,50.008344650268555
+709,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02288818359375
+710,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02670288085938
+711,Good,0.7999999999999999,False,False,True,Detected: 'excellent'; Ambiguity: Mixed positive and negative signals; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02813339233398
+712,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02622604370117
+713,Critical,0.85,True,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02646446228027
+714,Good,0.88,False,False,False,Detected: 'progressing well',Mock analysis based on keyword matching. Detected status: Good,50.00715255737305
+715,Critical,0.98,False,False,False,Detected: 'risk'; Detected: 'cancellation',Mock analysis based on keyword matching. Detected status: Critical,50.00405311584473
+716,Warning,0.85,False,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.00357627868652
+717,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02384185791016
+718,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02741813659668
+719,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02694129943848
+720,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02789497375488
+721,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02551078796387
+722,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02598762512207
+723,Good,0.95,False,False,False,Detected: 'excellent'; Detected: 'ahead of schedule',Mock analysis based on keyword matching. Detected status: Good,50.00786781311035
+724,Good,0.95,True,False,False,Detected: 'excellent'; Detected: 'critical',Mock analysis based on keyword matching. Detected status: Good,50.00476837158203
+725,Critical,0.9,True,False,False,Detected: 'overrun',Mock analysis based on keyword matching. Detected status: Critical,50.00309944152832
+726,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02264976501465
+727,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02551078796387
+728,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02670288085938
+729,Warning,0.85,False,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.008583068847656
+730,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02121925354004
+731,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02670288085938
+732,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02503395080566
+733,Warning,0.88,True,False,False,Detected: 'slight'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.07796287536621
+734,Warning,0.85,False,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.025033950805664
+735,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02241134643555
+736,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02717971801758
+737,Good,0.92,True,False,False,Detected: 'on schedule',Mock analysis based on keyword matching. Detected status: Good,50.00810623168945
+738,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02169609069824
+739,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02527236938477
+740,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02598762512207
+741,Critical,0.92,True,False,False,Detected: 'delay'; Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.008344650268555
+742,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02288818359375
+743,Good,0.88,True,False,False,Detected: 'progressing well',Mock analysis based on keyword matching. Detected status: Good,50.00739097595215
+744,Warning,0.85,True,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.00357627868652
+745,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02312660217285
+746,Critical,0.92,False,False,False,Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00762939453125
+747,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02288818359375
+748,Good,0.88,True,False,False,Detected: 'progressing well',Mock analysis based on keyword matching. Detected status: Good,50.00786781311035
+749,Good,0.95,False,False,False,Detected: 'excellent'; Detected: 'ahead of schedule',Mock analysis based on keyword matching. Detected status: Good,50.00452995300293
+750,Good,0.88,True,False,False,Detected: 'progressing well',Mock analysis based on keyword matching. Detected status: Good,50.00309944152832
+751,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02121925354004
+752,Good,0.88,True,False,False,Detected: 'progressing well',Mock analysis based on keyword matching. Detected status: Good,50.006914138793945
+753,Critical,0.7999999999999999,True,False,True,Detected: 'on schedule'; Ambiguity: Mixed positive and negative signals; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02670288085938
+754,Critical,0.9199999999999999,True,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.0309944152832
+755,Critical,0.92,True,False,False,Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00953674316406
+756,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02264976501465
+757,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02551078796387
+758,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02694129943848
+759,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02670288085938
+760,Critical,0.92,False,False,False,Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00929832458496
+761,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02264976501465
+762,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02551078796387
+763,Critical,0.9,True,False,False,Detected: 'overrun',Mock analysis based on keyword matching. Detected status: Critical,50.00882148742676
+764,Warning,0.85,True,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02217292785645
+765,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02527236938477
+766,Warning,0.85,True,False,False,Detected: 'delay'; Detected: 'risk',Mock analysis based on keyword matching. Detected status: Warning,50.00953674316406
+767,Critical,0.9199999999999999,True,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02479553222656
+768,Good,0.7999999999999999,True,False,True,Detected: 'excellent'; Ambiguity: Mixed positive and negative signals; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02574920654297
+769,Critical,0.9,True,False,False,Detected: 'overrun',Mock analysis based on keyword matching. Detected status: Critical,50.00715255737305
+770,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02431869506836
+771,Warning,0.85,True,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.006914138793945
+772,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02193450927734
+773,Critical,0.7,True,False,True,Ambiguity: Mixed positive and negative signals; No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02765655517578
+774,Critical,0.92,False,False,False,Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00953674316406
+775,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02193450927734
+776,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02455711364746
+777,Good,0.92,False,False,False,Detected: 'on schedule'; Detected: 'under budget',Mock analysis based on keyword matching. Detected status: Good,50.00715255737305
+778,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02312660217285
+779,Good,0.95,False,False,False,Detected: 'excellent'; Detected: 'ahead of schedule',Mock analysis based on keyword matching. Detected status: Good,50.00810623168945
+780,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02121925354004
+781,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02574920654297
+782,Good,0.92,False,False,False,Detected: 'on schedule'; Detected: 'under budget',Mock analysis based on keyword matching. Detected status: Good,50.00715255737305
+783,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02169609069824
+784,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02598762512207
+785,Warning,0.85,True,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.00739097595215
+786,Good,0.9199999999999999,True,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02312660217285
+787,Warning,0.88,True,False,False,Detected: 'slight'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02765655517578
+788,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02646446228027
+789,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02646446228027
+790,Critical,0.9,False,False,False,Detected: 'overrun',Mock analysis based on keyword matching. Detected status: Critical,50.00762939453125
+791,Warning,0.88,False,False,False,Detected: 'slight'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02193450927734
+792,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02789497375488
+793,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02455711364746
+794,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02741813659668
+795,Good,0.9199999999999999,True,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02717971801758
+796,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02717971801758
+797,Warning,0.88,False,False,False,Detected: 'slight'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02551078796387
+798,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02622604370117
+799,Critical,0.85,False,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02646446228027
+800,Critical,0.95,False,False,False,Detected: 'failed',Mock analysis based on keyword matching. Detected status: Critical,50.00762939453125
+801,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02408027648926
+802,Warning,0.85,False,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.00715255737305
+803,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02264976501465
+804,Critical,0.85,True,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02717971801758
+805,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02622604370117
+806,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02646446228027
+807,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02622604370117
+808,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02574920654297
+809,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02503395080566
+810,Critical,0.9199999999999999,True,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02861022949219
+811,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02431869506836
+812,Good,0.95,False,False,False,Detected: 'excellent'; Detected: 'ahead of schedule',Mock analysis based on keyword matching. Detected status: Good,50.00762939453125
+813,Critical,0.85,True,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02384185791016
+814,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02551078796387
+815,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02551078796387
+816,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02574920654297
+817,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02598762512207
+818,Warning,0.85,True,False,False,Detected: 'delay'; Detected: 'slight',Mock analysis based on keyword matching. Detected status: Warning,50.00715255737305
+819,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02193450927734
+820,Critical,0.98,False,False,False,Detected: 'risk'; Detected: 'cancellation',Mock analysis based on keyword matching. Detected status: Critical,50.00715255737305
+821,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02360343933105
+822,Critical,0.7999999999999999,False,False,True,Detected: 'on schedule'; Ambiguity: Mixed positive and negative signals; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02694129943848
+823,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02670288085938
+824,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02622604370117
+825,Critical,0.98,False,False,False,Detected: 'risk'; Detected: 'cancellation',Mock analysis based on keyword matching. Detected status: Critical,50.006914138793945
+826,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02503395080566
+827,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02741813659668
+828,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02813339233398
+829,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02455711364746
+830,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02646446228027
+831,Critical,0.92,False,False,False,Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00739097595215
+832,Warning,0.85,False,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02264976501465
+833,Critical,0.95,True,False,False,Detected: 'failed',Mock analysis based on keyword matching. Detected status: Critical,50.00810623168945
+834,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02336502075195
+835,Warning,0.85,True,False,False,Detected: 'delay'; Detected: 'risk',Mock analysis based on keyword matching. Detected status: Warning,50.008344650268555
+836,Warning,0.85,False,False,False,Detected: 'delay'; Detected: 'slight',Mock analysis based on keyword matching. Detected status: Warning,50.00357627868652
+837,Critical,0.9,False,False,False,Detected: 'overrun',Mock analysis based on keyword matching. Detected status: Critical,50.00333786010742
+838,Good,0.95,True,False,False,Detected: 'excellent'; Detected: 'critical',Mock analysis based on keyword matching. Detected status: Good,50.00476837158203
+839,Critical,0.92,True,False,False,Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00333786010742
+840,Critical,0.92,True,False,False,Detected: 'delay'; Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00405311584473
+841,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02264976501465
+842,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02694129943848
+843,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02813339233398
+844,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02551078796387
+845,Good,0.88,False,False,False,Detected: 'progressing well',Mock analysis based on keyword matching. Detected status: Good,50.006914138793945
+846,Critical,0.9,False,False,False,Detected: 'overrun',Mock analysis based on keyword matching. Detected status: Critical,50.00357627868652
+847,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02241134643555
+848,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02527236938477
+849,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02622604370117
+850,Good,0.95,False,False,False,Detected: 'excellent'; Detected: 'ahead of schedule',Mock analysis based on keyword matching. Detected status: Good,50.00762939453125
+851,Good,0.7999999999999999,False,False,True,Detected: 'excellent'; Ambiguity: Mixed positive and negative signals; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02169609069824
+852,Critical,0.85,False,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02646446228027
+853,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02646446228027
+854,Critical,0.92,False,False,False,Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.008344650268555
+855,Critical,0.95,False,False,False,Detected: 'failed',Mock analysis based on keyword matching. Detected status: Critical,50.003814697265625
+856,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02384185791016
+857,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02527236938477
+858,Critical,0.92,True,False,False,Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.009775161743164
+859,Critical,0.85,True,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02217292785645
+860,Good,0.7999999999999999,True,False,True,Detected: 'excellent'; Ambiguity: Mixed positive and negative signals; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02646446228027
+861,Critical,0.92,True,False,False,Detected: 'risk'; Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00786781311035
+862,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02264976501465
+863,Critical,0.88,False,False,False,Detected: 'slipped',Mock analysis based on keyword matching. Detected status: Critical,50.006914138793945
+864,Good,0.95,True,False,False,Detected: 'excellent'; Detected: 'ahead of schedule',Mock analysis based on keyword matching. Detected status: Good,50.00476837158203
+865,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02193450927734
+866,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02598762512207
+867,Good,0.92,False,False,False,Detected: 'on schedule'; Detected: 'under budget',Mock analysis based on keyword matching. Detected status: Good,50.00715255737305
+868,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02241134643555
+869,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02813339233398
+870,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02551078796387
+871,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02598762512207
+872,Critical,0.95,False,False,False,Detected: 'failed',Mock analysis based on keyword matching. Detected status: Critical,50.00739097595215
+873,Warning,0.85,False,False,False,Detected: 'delay'; Detected: 'slight',Mock analysis based on keyword matching. Detected status: Warning,50.003814697265625
+874,Warning,0.85,False,False,False,Detected: 'delay'; Detected: 'slight',Mock analysis based on keyword matching. Detected status: Warning,50.002384185791016
+875,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.01955032348633
+876,Critical,0.98,False,False,False,Detected: 'risk'; Detected: 'cancellation',Mock analysis based on keyword matching. Detected status: Critical,50.00715255737305
+877,Warning,0.85,True,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.005245208740234
+878,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02241134643555
+879,Critical,0.9,True,False,False,Detected: 'overrun',Mock analysis based on keyword matching. Detected status: Critical,50.00905990600586
+880,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02312660217285
+881,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02765655517578
+882,Critical,0.7,False,False,True,Ambiguity: Mixed positive and negative signals; No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02908706665039
+883,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02479553222656
+884,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02527236938477
+885,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02431869506836
+886,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02670288085938
+887,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02574920654297
+888,Good,0.95,True,False,False,Detected: 'excellent'; Detected: 'ahead of schedule',Mock analysis based on keyword matching. Detected status: Good,50.008583068847656
+889,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02336502075195
+890,Critical,0.7999999999999999,False,False,True,Detected: 'on schedule'; Ambiguity: Mixed positive and negative signals; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02837181091309
+891,Warning,0.85,False,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.00762939453125
+892,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02241134643555
+893,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02551078796387
+894,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02670288085938
+895,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02574920654297
+896,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02670288085938
+897,Warning,0.85,True,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.00739097595215
+898,Critical,0.92,True,False,False,Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00619888305664
+899,Warning,0.85,False,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.00309944152832
+900,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02193450927734
+901,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02670288085938
+902,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02813339233398
+903,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02670288085938
+904,Warning,0.88,False,False,False,Detected: 'slight'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02574920654297
+905,Critical,0.7999999999999999,True,False,True,Detected: 'on schedule'; Ambiguity: Mixed positive and negative signals; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02765655517578
+906,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02694129943848
+907,Good,0.9199999999999999,False,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02813339233398
+908,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02598762512207
+909,Critical,0.9199999999999999,True,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.0298023223877
+910,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02527236938477
+911,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02455711364746
+912,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02574920654297
+913,Warning,0.85,False,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.008344650268555
+914,Critical,0.95,False,False,False,Detected: 'failed',Mock analysis based on keyword matching. Detected status: Critical,50.00429153442383
+915,Critical,0.98,False,False,False,Detected: 'risk'; Detected: 'cancellation',Mock analysis based on keyword matching. Detected status: Critical,50.00357627868652
+916,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02193450927734
+917,Warning,0.85,False,False,False,Detected: 'delay'; Detected: 'risk',Mock analysis based on keyword matching. Detected status: Warning,50.00882148742676
+918,Good,0.88,False,False,False,Detected: 'progressing well',Mock analysis based on keyword matching. Detected status: Good,50.00357627868652
+919,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02312660217285
+920,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02574920654297
+921,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02646446228027
+922,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02527236938477
+923,Critical,0.9,False,False,False,Detected: 'overrun',Mock analysis based on keyword matching. Detected status: Critical,50.00929832458496
+924,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02527236938477
+925,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02551078796387
+926,Critical,0.9,False,False,False,Detected: 'overrun',Mock analysis based on keyword matching. Detected status: Critical,50.00762939453125
+927,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02384185791016
+928,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02622604370117
+929,Warning,0.85,True,False,False,Detected: 'delay'; Detected: 'risk',Mock analysis based on keyword matching. Detected status: Warning,50.00929832458496
+930,Critical,0.88,True,False,False,Detected: 'slipped',Mock analysis based on keyword matching. Detected status: Critical,50.00357627868652
+931,Critical,0.85,True,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02145767211914
+932,Critical,0.98,True,False,False,Detected: 'risk'; Detected: 'cancellation',Mock analysis based on keyword matching. Detected status: Critical,50.00786781311035
+933,Warning,0.85,False,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.00405311584473
+934,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02098083496094
+935,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02670288085938
+936,Good,0.95,True,False,False,Detected: 'excellent'; Detected: 'critical',Mock analysis based on keyword matching. Detected status: Good,50.00882148742676
+937,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02193450927734
+938,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02813339233398
+939,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02741813659668
+940,Warning,0.85,True,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.006914138793945
+941,Warning,0.85,False,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.00333786010742
+942,Critical,0.7999999999999999,True,False,True,Detected: 'on schedule'; Ambiguity: Mixed positive and negative signals; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02384185791016
+943,Good,0.95,False,False,False,Detected: 'excellent'; Detected: 'ahead of schedule',Mock analysis based on keyword matching. Detected status: Good,50.00786781311035
+944,Critical,0.9,False,False,False,Detected: 'overrun',Mock analysis based on keyword matching. Detected status: Critical,50.00572204589844
+945,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02169609069824
+946,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02670288085938
+947,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02741813659668
+948,Critical,0.9199999999999999,False,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02908706665039
+949,Critical,0.9199999999999999,True,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.0300407409668
+950,Good,0.88,False,False,False,Detected: 'progressing well',Mock analysis based on keyword matching. Detected status: Good,50.00715255737305
+951,Warning,0.85,False,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02408027648926
+952,Warning,0.85,False,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02622604370117
+953,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02789497375488
+954,Good,0.9199999999999999,True,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02813339233398
+955,Good,0.95,True,False,False,Detected: 'excellent'; Detected: 'critical',Mock analysis based on keyword matching. Detected status: Good,50.00905990600586
+956,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02431869506836
+957,Good,0.88,False,False,False,Detected: 'progressing well',Mock analysis based on keyword matching. Detected status: Good,50.008583068847656
+958,Critical,0.9,False,False,False,Detected: 'overrun',Mock analysis based on keyword matching. Detected status: Critical,50.00357627868652
+959,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02169609069824
+960,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02598762512207
+961,Good,0.7999999999999999,False,False,True,Detected: 'excellent'; Ambiguity: Mixed positive and negative signals; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02646446228027
+962,Warning,0.85,False,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02622604370117
+963,Critical,0.92,True,False,False,Detected: 'risk'; Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00786781311035
+964,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02288818359375
+965,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02694129943848
+966,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02527236938477
+967,Good,0.92,False,False,False,Detected: 'on schedule'; Detected: 'under budget',Mock analysis based on keyword matching. Detected status: Good,50.00715255737305
+968,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02217292785645
+969,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02622604370117
+970,Critical,0.7999999999999999,False,False,True,Detected: 'on schedule'; Ambiguity: Mixed positive and negative signals; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.0307559967041
+971,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02837181091309
+972,Good,0.9199999999999999,False,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02646446228027
+973,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02694129943848
+974,Good,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02551078796387
+975,Critical,0.92,False,False,False,Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00715255737305
+976,Critical,0.9199999999999999,True,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02479553222656
+977,Good,0.9199999999999999,True,False,False,Detected: 'minor'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.0295639038086
+978,Critical,0.9,False,False,False,Detected: 'overrun',Mock analysis based on keyword matching. Detected status: Critical,50.00762939453125
+979,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02241134643555
+980,Good,0.92,True,False,False,Detected: 'on schedule',Mock analysis based on keyword matching. Detected status: Good,50.00739097595215
+981,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02384185791016
+982,Warning,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02527236938477
+983,Warning,0.85,True,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02694129943848
+984,Critical,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02670288085938
+985,Warning,0.85,False,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02741813659668
+986,Critical,0.98,True,False,False,Detected: 'risk'; Detected: 'cancellation',Mock analysis based on keyword matching. Detected status: Critical,50.00786781311035
+987,Warning,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Warning,80.02217292785645
+988,Critical,0.92,False,False,False,Detected: 'risk'; Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00739097595215
+989,Critical,0.98,False,False,False,Detected: 'risk'; Detected: 'cancellation',Mock analysis based on keyword matching. Detected status: Critical,50.00357627868652
+990,Critical,0.92,True,False,False,Detected: 'critical',Mock analysis based on keyword matching. Detected status: Critical,50.00572204589844
+991,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02241134643555
+992,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02670288085938
+993,Critical,0.7,True,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02717971801758
+994,Critical,0.9,True,False,False,Detected: 'overrun',Mock analysis based on keyword matching. Detected status: Critical,50.00882148742676
+995,Critical,0.85,True,False,False,Detected: 'risk'; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02360343933105
+996,Critical,0.7,True,False,True,Ambiguity: Mixed positive and negative signals; No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Critical,80.02765655517578
+997,Good,0.92,False,False,False,Detected: 'on schedule',Mock analysis based on keyword matching. Detected status: Good,50.00715255737305
+998,Good,0.92,False,False,False,Detected: 'on schedule'; Detected: 'under budget',Mock analysis based on keyword matching. Detected status: Good,50.00286102294922
+999,Warning,0.85,True,False,False,Detected: 'delay',Mock analysis based on keyword matching. Detected status: Warning,50.00333786010742
+1000,Good,0.7,False,False,True,No clear indicators found; RAG: 5 similar cases analyzed,Refined based on 5 similar cases. Most common status: Good,80.02169609069824
