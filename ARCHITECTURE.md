@@ -300,8 +300,26 @@ uvicorn app.main:app --reload
 
 | Variable | Default | Description |
 |----------|---------|-------------|
-| `OPENAI_API_KEY` | - | OpenAI API key for GPT-4 |
-| `USE_MOCK_LLM` | `true` | Use mock LLM for development |
+| `OPENAI_API_KEY` | `sk-2A7b2ww9Vbw-644Gi4B6QA` | API key for LLM service |
+| `OPENAI_BASE_URL` | `https://litellm.ai.paas.htec.rs` | Base URL for OpenAI-compatible API |
+| `LLM_MODEL` | `l2-gpt-4o-mini` | LLM model to use |
+| `USE_MOCK_LLM` | `false` | Use mock LLM for development |
+
+### Available Models (HTEC AI)
+
+| Model | Description |
+|-------|-------------|
+| `l2-gpt-4o-mini` | Fast, cost-effective (default) |
+| `l2-gpt-4o` | Most capable |
+| `l2-gpt-4.1` | Latest GPT-4.1 |
+| `l2-gpt-4.1-mini` | GPT-4.1 mini variant |
+| `l2-gpt-4.1-nano` | Smallest/fastest |
+| `l2-o3-mini` | O3 mini model |
+
+### Rate Limits
+
+- **Tokens Per Minute (TPM)**: 50,000
+- **Requests Per Minute (RPM)**: 60
 
 ---
 

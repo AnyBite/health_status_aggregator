@@ -15,7 +15,7 @@ An AI-driven system that analyzes and aggregates health status data from Power B
 ### Prerequisites
 
 - Python 3.11+
-- OpenAI API key (optional - mock LLM available for development)
+- HTEC AI API access (pre-configured) or OpenAI API key
 
 ### Installation
 
@@ -31,6 +31,26 @@ python generate_data.py
 
 # Start the server
 uvicorn app.main:app --reload
+```
+
+### LLM Configuration
+
+The application is pre-configured to use HTEC AI service:
+
+| Setting | Value |
+|---------|-------|
+| **Base URL** | `https://litellm.ai.paas.htec.rs` |
+| **Model** | `l2-gpt-4o-mini` |
+| **Mock LLM** | Disabled (uses real AI) |
+
+To use a different configuration, set environment variables:
+
+```bash
+# Use different model
+$env:LLM_MODEL = "l2-gpt-4o"
+
+# Use mock LLM for development (no API calls)
+$env:USE_MOCK_LLM = "true"
 ```
 
 ### Access the API

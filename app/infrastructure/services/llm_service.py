@@ -89,7 +89,10 @@ class OpenAILLMService(ILLMService):
 
     def __init__(self, settings: Settings):
         self._settings = settings
-        self._client = OpenAI(api_key=settings.openai_api_key)
+        self._client = OpenAI(
+            api_key=settings.openai_api_key,
+            base_url=settings.openai_base_url
+        )
 
     def analyze_record(self, record: Record) -> AnalysisResult:
         """Analyze a health record using OpenAI with chain-of-thought prompting."""
