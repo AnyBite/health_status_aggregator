@@ -11,7 +11,7 @@ class Settings:
         default_factory=lambda: os.getenv("OPENAI_API_KEY", "************")
     )
     openai_base_url: str = field(
-        default_factory=lambda: os.getenv("OPENAI_BASE_URL", "https://litellm.ai.paas.htec.rs")
+        default_factory=lambda: os.getenv("OPENAI_BASE_URL", "https://***********")
     )
     llm_model: str = field(
         default_factory=lambda: os.getenv("LLM_MODEL", "l2-gpt-4o-mini")
