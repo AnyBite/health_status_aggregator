@@ -8,7 +8,7 @@ class Settings:
     """Application configuration settings."""
     
     openai_api_key: str = field(
-        default_factory=lambda: os.getenv("OPENAI_API_KEY", "sk-2A7b2ww9Vbw-644Gi4B6QA")
+        default_factory=lambda: os.getenv("OPENAI_API_KEY", "************")
     )
     openai_base_url: str = field(
         default_factory=lambda: os.getenv("OPENAI_BASE_URL", "https://litellm.ai.paas.htec.rs")
