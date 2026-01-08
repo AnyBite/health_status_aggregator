@@ -301,7 +301,7 @@ uvicorn app.main:app --reload
 | Variable | Default | Description |
 |----------|---------|-------------|
 | `OPENAI_API_KEY` | `**********` | API key for LLM service |
-| `OPENAI_BASE_URL` | `https://litellm.ai.paas.htec.rs` | Base URL for OpenAI-compatible API |
+| `OPENAI_BASE_URL` | `https://*********` | Base URL for OpenAI-compatible API |
 | `LLM_MODEL` | `l2-gpt-4o-mini` | LLM model to use |
 | `USE_MOCK_LLM` | `false` | Use mock LLM for development |
 
